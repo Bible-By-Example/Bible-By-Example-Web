@@ -209,3 +209,7 @@ end
 task :gem do
   sh 'gem build minimal-mistakes-jekyll.gemspec'
 end
+
+task :build do
+  system "env LANG=\"en_US.UTF-8\" bundle exec jekyll serve"
+end
