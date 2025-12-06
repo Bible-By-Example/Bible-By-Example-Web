@@ -191,6 +191,8 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - staticman.yml
+  - wrangler.toml
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
