@@ -1,0 +1,7 @@
+---
+permalink: /robots.txt
+---
+
+# https://robotstxt.org/
+
+User-agent: *
