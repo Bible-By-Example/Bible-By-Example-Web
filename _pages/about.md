@@ -1,13 +1,11 @@
 ---
 permalink: /about.html
 title: About
+author_profile: false
 ---
 ## About the Podcast
-This show is about going through the Christian scripture book by book, chapter by chapter, word for word - and we won't skip the hard parts.
+Bible By Example is a podcast for listeners who want to engage the Bible directly - without sermons, agendas, or insider jargon. Whether you’re a new Christian, a longtime churchgoer who’s never read the text for yourself, a believer revisiting Scripture with fresh eyes, or a skeptic who wants to critique Christianity accurately, this podcast gives you a clear, grounded way in.
 
-My goal is to do this in a way that enables discussion between believers and non-believers. This is not a preachy service, but a walk through what really is and isn't in the scripture so we can have a constructive debate and not get distracted by arguing over things that aren't really there in the first place.
+Hosted by a Christian “fellow traveler” rather than a theologian or pastor, the show walks through the Bible book by book, chapter by chapter, focusing on the plain sense of the text. Along the way, you’ll hear occasional dives into language, history, and the places where major Christian traditions disagree. The goal isn’t to tell you what to believe, but to model how to read carefully, responsibly, and with curiosity.
 
-I also want to be clear about what we will not be covering: we will not be going deep into the various issues and trivia that divide the different denominations. If there's enough support on the Patreon page, I may set up a separate show for that purpose. This main podcast will remain centered around the core of Christian belief that is common to all denominations - what C. S. Lewis referred to as "Mere Christianity".
-
-## About the Host
-For as long as I can remember I've always embraced the idea of the "[Renaissance Man](https://simple.wikipedia.org/wiki/Renaissance_man)" - I've been a swim coach, teacher, programmer, server admin, and all sorts of other jobs related to or combining the talents of all of them. I hope to add in apologist and lay theologian with this podcast. I've been told I'm a rather complicated person ... and I think some of them meant it as a compliment. :)
+The journey begins with an introductory series, What the Bible Is, covering what the Bible is and isn't, how we got it, why we consider the text reliable, and how translation families differ. From there, we move into Genesis and continue all the way to Revelation. If you want to feel grounded, educated, and better equipped to read Scripture for yourself, you’re in the right place.

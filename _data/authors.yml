@@ -31,7 +31,7 @@ AnonJr:
 Bible By Example:
   name             : "Bible By Example"
   avatar           : "/assets/img/Logo.Book.128w.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A podcast dedicated to covering Christian scripture in a way that enables discussion between believers and non-believers." # "Placeholder for something interesting..."
+  bio              : "A long-form, text-first Bible study that teaches people how to read Scripture responsibly, without preaching, apologizing, or deconstructing." # "Placeholder for something interesting..."
   location         :
   email            :
   uri              :
