@@ -1,5 +1,5 @@
 ---
 title: Support
-description: "Description Needed"
+description: "Ways to support Bible By Example"
 ---
 Support us on Patreon:

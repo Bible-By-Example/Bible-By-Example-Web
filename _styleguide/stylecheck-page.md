@@ -1,5 +1,6 @@
 ---
 title : "Style Check (Page)"
+description: "Description Needed"
 layout: single
 permalink: /styleguide/stylecheck-page.html
 ---
