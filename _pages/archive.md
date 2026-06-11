@@ -1,6 +1,5 @@
 ---
 title: Archive
-layout: archive
-author_profile: false
+description: "Description Needed"
 ---
 See past shows:

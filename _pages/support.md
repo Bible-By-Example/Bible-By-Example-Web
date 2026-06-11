@@ -1,5 +1,5 @@
 ---
 title: Support
-author_profile: false
+description: "Description Needed"
 ---
 Support us on Patreon:

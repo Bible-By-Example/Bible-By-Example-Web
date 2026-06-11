@@ -1,6 +1,6 @@
 ---
 title: About
-author_profile: false
+description: "Description Needed"
 ---
 ## About the Podcast
 Bible By Example is a podcast for listeners who want to engage the Bible directly - without sermons, agendas, or insider jargon. Whether you’re a new Christian, a longtime churchgoer who’s never read the text for yourself, a believer revisiting Scripture with fresh eyes, or a skeptic who wants to critique Christianity accurately, this podcast gives you a clear, grounded way in.

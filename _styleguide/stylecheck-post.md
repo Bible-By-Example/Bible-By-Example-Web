@@ -2,7 +2,7 @@
 title : "Style Check (Posts)"
 date: 2017-09-28 12:20:00
 layout: single
-comments: true
+comments: false
 tags:
 - programming
 - meta
