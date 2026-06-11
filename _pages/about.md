@@ -1,5 +1,4 @@
 ---
-permalink: /about.html
 title: About
 author_profile: false
 ---
