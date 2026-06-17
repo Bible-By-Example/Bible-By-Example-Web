@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "Support"
-    url: /support.html
+  - title: "Episodes"
+    #url: /about.html
   - title: "About"
     url: /about.html
-  - title: "Archive"
+  - title: "Support"
+    url: /support.html
+  - title: "Post Archive"
     url: /archive.html
   # - title: "Sample Collections"
   #   url: /collection-archive/
