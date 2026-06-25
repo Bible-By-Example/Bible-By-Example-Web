@@ -1,5 +1,12 @@
 ---
-title: Support
+title: "Support Options"
 description: "Ways to support Bible By Example"
+toc: true
+toc_label: "Support Options"
+#toc_icon:
+toc_sticky: true
 ---
-Support us on Patreon:
+## One-Time Support
+
+
+## Recurring Support

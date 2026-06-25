@@ -1,5 +1,5 @@
 ---
-title: Welcome to Bible By Example
+title: About Bible By Example
 description: "About Bible By Example and it's host"
 ---
 
