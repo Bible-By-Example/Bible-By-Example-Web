@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "References"
-    #url: /references.html
+    url: /references.html
   - title: "Archive"
     url: /archive.html
   - title: "Support"
