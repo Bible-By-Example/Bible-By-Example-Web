@@ -47,6 +47,14 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+
+  /* v Fix for Creative Commons logos to fit right v */
+  img {
+    height: $type-size-6;
+    margin-left:3px;
+    vertical-align: baseline;
+  }
+
 }
 
 .page__footer-follow {
