@@ -15,3 +15,13 @@ How we do things differently:
 **The Roadmap:** The journey begins with an introductory series — What the Bible Is — covering how we got the text, why we consider it reliable, how translation families differ, and the baseline definitions we'll be using. From there, we move straight into Genesis.
 
 If you want to feel grounded, educated, and better equipped to read Scripture for yourself, you’re in the right place.
+
+## Licensing and Copyright
+
+Unless otherwise noted, the original content produced by Bible By Example — including podcast episodes, transcripts, articles, study guides, and other written materials — is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+
+The Bible By Example name, logo, and other branding are not licensed under Creative Commons and may not be used in a manner that suggests endorsement, affiliation, or sponsorship without permission.
+
+The Bible By Example Theme Song and any other original musical works are Copyright © Bible By Example. All Rights Reserved. They are not included in the Creative Commons license unless expressly stated otherwise.
+
+Third-party materials, including quotations, Scripture translations, photographs, artwork, and other copyrighted works, remain the property of their respective owners and are used under their applicable licenses or permissions.
