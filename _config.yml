@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
@@ -16,13 +9,13 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Bible By Example"
+direction                : # "ltr" (default), "rtl" # set the direction of the page
+#title                   : Defined in _config.dev.yml and _config.prod.yml
 title_separator          : " | "
 subtitle                 : "A long-form, text-first Bible study" # site tagline that appears below site title in masthead
 name                     : "Bible By Example"
 description              : "A long-form, text-first Bible study that teaches people how to read Scripture responsibly, without preaching, apologizing, or deconstructing."
-url                      : "https://www.biblebyexample.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                     : Defined in _config.dev.yml and _config.prod.yml; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Bible-By-Example/Bible-By-Example-Web"
 teaser                   : "/assets/img/Logo.Main.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -116,7 +109,7 @@ analytics:
 author:
   name             : "Mark Bussell Jr. (AnonJr)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A fellow travler in this study."
+  bio              : "A fellow traveler in this study."
   location         : "Coastal NC, USA"
   email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
@@ -170,24 +163,36 @@ include:
   - .htaccess
   # - _pages - Including this causes the _pages directory to be processed twice
 exclude:
-  - .git
+  # Environment-specific configuration
+  - _config.dev.yml
+  - _config.prod.yml
+
+  # Build caches
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+
+  # Development tooling
+  - .editorconfig
   - .gitattributes
+  - .github/
   - .gitignore
-  - .vscode
-  - CNAME
+  - .ruby-version
+  - .scripts/
+  - .vscode/
+
+  # Build dependencies
   - Gemfile
   - Gemfile.lock
-  - Rakefile
-  - misc/
-  - node_modules
-  - package-lock.json
-  - package.json
-  - readme.md
-  - staticman.yml
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - node_modules/
+  - vendor/
+
+  # Repository documentation
+  - LICENSE.md
+  - README.md
+
+  # Deployment
   - wrangler.toml
 
 encoding: "utf-8"
@@ -219,7 +224,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # style: compressed # Defined in _config.dev.yml and _config.prod.yml; https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   quiet_deps: true
   silence_deprecations: ['import']
 
@@ -258,19 +263,6 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-sass-converter
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-sass-converter
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
@@ -311,16 +303,15 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# HTML Compression
-# - https://jch.penibelst.de/
+# HTML Compression https://jch.penibelst.de/
 compress_html:
+  blanklines: true
   clippings: all
+  comments: all
+  profile: false
   ignore:
     envs: development
 
-# Redirect
-redirect_from:
-  json: false
 
 # Collections
 collections:
@@ -329,6 +320,7 @@ collections:
     permalink: /:title:output_ext
   styleguide:
     output: false
+
 
 # Defaults
 defaults:
