@@ -1,0 +1,23 @@
+name: Build Development Site
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    uses: Wayward-Son-Developers/Jekyll-Template/.github/workflows/jekyll-build.yml@v1.0.1
+    with:
+      staging-cname: 'dev.biblebyexample.com'
+      jekyll-configs: '_config.yml,_config.dev.yml'
