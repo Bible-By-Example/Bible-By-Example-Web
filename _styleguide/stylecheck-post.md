@@ -2,7 +2,7 @@
 title : "Style Check (Posts)"
 description: "Description Needed"
 date: 2017-09-28 12:20:00
-#layout: single
+layout: single
 comments: true
 tags:
 - programming

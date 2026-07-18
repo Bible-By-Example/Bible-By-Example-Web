@@ -10,4 +10,4 @@ sass:
 # Disable the style guide/style check pages in dev
 collections:
   styleguide:
-    output               : false
+    output               : true
