@@ -1,5 +1,5 @@
 name = "bible-by-example-web"
-compatibility_date = "2026-06-01"
+compatibility_date = "2026-07-17"
 
 [assets]
 directory = "./_site/"
