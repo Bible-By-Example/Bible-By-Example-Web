@@ -34,6 +34,7 @@ Desktop.ini
 /.vscode/*
 !/.vscode/settings.json
 !/.vscode/extensions.json
+!/.vscode/ltex.dictionary.en-US.txt
 
 # Node.js tooling (uncomment if using npm packages locally)
 # /node_modules/

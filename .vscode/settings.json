@@ -6,5 +6,26 @@
         "markdown",
         "latex",
         "plaintext"
+    ],
+    "editor.fontSize": 12,
+    "editor.rulers": [],
+    "editor.renderLineHighlight": "line",
+    "workbench.colorCustomizations": {},
+    "ltex.language": "en-US",
+    "ltex.languageTool.checkComments": true,
+    "ltex.enabled": [
+        "css",
+        "git-commit",
+        "html",
+        "javascript",
+        "json",
+        "jsonc",
+        "markdown",
+        "plaintext",
+        "powershell",
+        "python",
+        "ruby",
+        "toml",
+        "yaml"
     ]
 }
