@@ -7,6 +7,7 @@
         "latex",
         "plaintext"
     ],
+    "readabilityHelper.formula": "flesch-kincaid",
     "editor.fontSize": 12,
     "editor.rulers": [],
     "editor.renderLineHighlight": "line",
