@@ -23,4 +23,4 @@ Not everyone likes Substack and/or Patreon, so you can use one of the below to o
 
 | Liberapay | PayPal | Stripe |
 | --------- | ------ | ------ |
-| Liberapay Link | PayPal Link | Stripe Link |
+| <script src="https://liberapay.com/AnonJr/widgets/button.js"></script><noscript><a href="https://liberapay.com/AnonJr/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript> | PayPal Link | Stripe Link |
