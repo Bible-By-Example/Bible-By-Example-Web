@@ -8,19 +8,17 @@ toc_sticky: true
 
 A worker is worth his wage. I leave the wage this work is worth to you, and provide options for one-time and recurring support.
 
-## [Substack](https://biblebyexample.substack.com/)
+Bible By Example is a [Wayward Son Developers](https://www.waywardsondevelopers.com/) project. Your receipt may show that organization or a shorter version of that name.
+{: .notice--warning}
 
-Substack offers either a $10 USD per month subscription or a $100 USD per year subscription. No content is hidden behind the paywall, but I may have to limit access to the community chat if spam gets out of hand.
-<iframe src="https://biblebyexample.substack.com/embed?transparent=1&light=1" width="480" height="150" style="border: 0; background: transparent" frameborder="0" scrolling="no"></iframe>
+## Subscription Options
 
-## [Patreon](https://www.patreon.com/cw/BibleByExample)
+{% include payment-substack.html %}
 
-[Patreon code here]
+{% include payment-patreon.html %}
 
-## Direct via Liberapay, PayPal, or Stripe
+## Direct Payment Options
 
 Not everyone likes Substack and/or Patreon, so you can use one of the below to offer one-time or recurring support more directly.
 
-| Liberapay | PayPal | Stripe |
-| --------- | ------ | ------ |
-| <script src="https://liberapay.com/AnonJr/widgets/button.js"></script><noscript><a href="https://liberapay.com/AnonJr/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript> | PayPal Link | Stripe Link |
+{% include payment-liberapay.html %}{% include payment-paypal.html %}{% include payment-stripe.html %}
