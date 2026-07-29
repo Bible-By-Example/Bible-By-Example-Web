@@ -355,11 +355,11 @@ defaults:
       path               : "_pages"
       type               : pages
     values:
-      layout             : archive
+      layout             : pages
       author_profile     : false
       author             : Bible By Example
       read_time          : false
       comments           : false # true
-      share              : true
+      share              : false
       related            : false
       permalink          : /:title:output_ext
