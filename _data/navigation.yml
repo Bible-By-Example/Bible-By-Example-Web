@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "References"
-    url: /references.html
   - title: "Archive"
     url: /archive.html
+  - title: "References"
+    url: /references.html
   - title: "Support"
     url: /support.html
   - title: "About"
