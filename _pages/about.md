@@ -1,9 +1,12 @@
 ---
 title: About Bible By Example
 description: "About Bible By Example and it's host"
+toc: true
+toc_label: "About"
+toc_sticky: true
 ---
 
-_Bible By Example_ is a podcast for people who want to engage with the Bible directly — without sermons, agendas, or insider jargon. Whether you’re a new Christian, a longtime churchgoer who’s never read the text for yourself, or a skeptic who wants to ensure your criticisms are leveled at the actual text rather than a caricature, this podcast gives you a clear, grounded way in.
+Bible By Example is a podcast for people who want to engage with the Bible directly — without sermons, agendas, or insider jargon. Whether you’re a new Christian, a longtime churchgoer who’s never read the text for yourself, or a skeptic who wants to ensure your criticisms are leveled at the actual text rather than a caricature, this podcast gives you a clear, grounded way in.
 
 Hosted by a Christian “fellow traveler” out of costal North Carolina rather than a theologian or pastor, the show walks through the Bible book by book, chapter by chapter, verse by verse — and we don’t skip the hard parts. Think of it like a peer-to-peer study where I share the linguistic quirks, historical context, and archaeological data from my prep work, while explicitly inviting you to check behind me.
 
