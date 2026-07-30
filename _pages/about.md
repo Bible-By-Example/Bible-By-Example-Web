@@ -1,7 +1,7 @@
 ---
 title: About Bible By Example
 description: "About Bible By Example and it's host"
-toc: true
+toc: false
 toc_label: "About"
 toc_sticky: true
 ---
