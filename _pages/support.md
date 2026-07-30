@@ -6,9 +6,7 @@ toc_label: "Support Options"
 toc_sticky: true
 ---
 
-A worker is worth his wage. How much this work is worth I leave to you.
-
-All posts and episodes are free. The show is as ad-free as I can keep it. There's no paid promotions or sponsorships. Just the willing support from you.
+A worker is worth their wage. I leave it to you to decide what wage this work is worth — all posts and episodes are free, the show is kept ad‑free where the platforms permit, and there are no paid promotions or sponsorships.
 
 Bible By Example is a [Wayward Son Developers](https://www.waywardsondevelopers.com/) project. Your receipt may show that organization or a shorter version of that name.
 {: .notice--warning}
