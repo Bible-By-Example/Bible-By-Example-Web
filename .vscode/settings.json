@@ -28,5 +28,7 @@
         "ruby",
         "toml",
         "yaml"
-    ]
+    ],
+    "[markdown]": {
+    }
 }

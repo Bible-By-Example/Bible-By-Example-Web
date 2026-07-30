@@ -51,16 +51,23 @@
   "frontMatter.preview.host": "http://localhost:4000",
   "frontMatter.content.pageFolders": [
     {
-      "title": "drafts",
+      "title": "Drafts",
       "path": "[[workspace]]/_drafts"
     },
     {
-      "title": "posts",
+      "title": "Posts",
       "path": "[[workspace]]/_posts"
     },
     {
-      "path": "[[workspace]]/_styleguide"
+      "path": "[[workspace]]/_styleguide",
+      "title": "Style Guide"
+    },
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/_pages"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.website.host": "https://dev.biblebyexample.com/",
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve --config _config.yml,_config.dev.yml --host localhost --port 4000"
 }
