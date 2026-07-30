@@ -14,9 +14,9 @@ There's still great value in getting a print copy of the Bible, a good notebook,
 
 ### e-Sword
 
-The main program I'm using is [e-Sword][1]. I've been using the PC edition since back around PC version 7 or 8 and the Pocket PC edition. While the PC version's interface is a little &hellip; dated, it's still a great program I highly recommend. They now have versions for macOS, iOS, and Android, and they are fantastic. In addition to the PC version on my main computer, I use the Android version (which supports downloading Bibles and other resources for offline reading) on my phone and tablet, and the Mac version on my MacBook Air.
+The main program I'm using is [e-Sword][1]. I've been using the PC edition since back around PC version 7 or 8 and the Pocket PC edition. ~~While the PC version's interface is a little &hellip; dated~~, it's still a great program I highly recommend. While composing this page, e-Sword has published version 15 with a brand-new interface.
 
-The PC version is free, and it comes with access to an amazing list of free Bible translations, commentaries, and other references. You can get a *lot* of community made resources from [BibleSupport.com][2] - some are even well-made! - and premium (read: paid) resources can be found over at [eStudySource][3]. Keep an eye on the latter, as they run sales from time to time. Some of the resources I'll be using were purchased there.
+They now have versions for macOS, iOS, and Android, and they are fantastic. In addition to the PC version on my main computer, I use the Android version (which supports downloading Bibles and other resources for offline reading) on my phone and tablet, and the Mac version on my MacBook Air. The PC version is free, and it comes with access to an amazing list of free Bible translations, commentaries, and other references. You can get a *lot* of community made resources from [BibleSupport.com][2] - some are even well-made! - and premium (read: paid) resources can be found over at [eStudySource][3]. Keep an eye on the latter, as they run sales from time to time. Some of the resources I'll be using were purchased there.
 
 The Android, iOS, and Mac versions are not free, but are reasonably priced in the USD $3 - $10 range depending on which version you're looking at. Purchased modules from BibleSupport.com can be downloaded to all platforms and do not need to be purchased more than once.
 
@@ -57,6 +57,12 @@ The New Revised Standard Version, usually abbreviated **NRSV**, has been around 
 ### English Standard Version (ESV)
 
 The [English Standard Version][12], usually abbreviated **ESV**, was published in 2001 by Crossway and relies on (among other resources) recently published critical editions of the original Hebrew, Aramaic, and Greek texts. As near as I can tell it is a refinement of the 1971 text edition of the Revised Standard Version (RSV). Like the NRSV, there's some controversy over the gender-neutral language. Though in this case it's a question of it being inconsistently applied. It's written for an 8th grade reading level, and uses a more formal equivalence translation style. It's very popular in conservative Evangelical circles.
+
+### CJB
+
+### KJV
+
+### CPDV
 
 ## Commentaries
 
