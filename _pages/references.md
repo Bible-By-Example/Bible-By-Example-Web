@@ -6,7 +6,9 @@ toc_label: "Links and Software"
 toc_sticky: true
 ---
 
-There are all sorts of software, tools, and other resources to help with Bible studies of any level. Here's a list of what I am using in the preparation and production of this study; and a few alternatives so you know you what else is available. This is not an exhaustive list. The first entry is the primary resource I'm using to prepare this series, and the remainder are alternatives that I'm both aware of and willing to recommend. Some of the other programs I've used either seem to be abandoned or I've just not heard anyone using them as much lately. There are definitely far more decent programs than I could hope to list.
+There are all sorts of software, tools, and other resources to help with Bible studies of any level. Here's a list of what I am using in the preparation and production of this study; and a few alternatives so you know you what else is available. This is not an exhaustive list.
+
+The first entry is the primary resource I'm using to prepare this series, and the remainder are alternatives that I'm both aware of and willing to recommend. Some of the other programs I've used either seem to be abandoned or I've just not heard anyone using them as much lately. There are definitely far more decent programs than I could hope to list.
 
 ## Software
 
@@ -14,9 +16,11 @@ There's still great value in getting a print copy of the Bible, a good notebook,
 
 ### e-Sword
 
-The main program I'm using is [e-Sword][1]. I've been using the PC edition since back around PC version 7 or 8 and the Pocket PC edition. ~~While the PC version's interface is a little &hellip; dated~~, it's still a great program I highly recommend. While composing this page, e-Sword has published version 15 with a brand-new interface.
+The main program I'm using is [e-Sword][1]. I've been using the PC edition since back around PC version 7 or 8 and the Pocket PC edition. ~~While the PC version's interface is a little &hellip; dated~~, it's still a great program I highly recommend. While composing this page, e-Sword has published version 15 with a brand-new interface, and it looks good.
 
-They now have versions for macOS, iOS, and Android, and they are fantastic. In addition to the PC version on my main computer, I use the Android version (which supports downloading Bibles and other resources for offline reading) on my phone and tablet, and the Mac version on my MacBook Air. The PC version is free, and it comes with access to an amazing list of free Bible translations, commentaries, and other references. You can get a *lot* of community made resources from [BibleSupport.com][2] - some are even well-made! - and premium (read: paid) resources can be found over at [eStudySource][3]. Keep an eye on the latter, as they run sales from time to time. Some of the resources I'll be using were purchased there.
+There are also versions for macOS, iOS, and Android, and they are fantastic. In addition to the PC version on my main computer, I use the Android version (which supports downloading Bibles and other resources for offline reading) on my phone and tablet, and the Mac version on my MacBook Air.
+
+The PC version is free, and it comes with access to an amazing list of free Bible translations, commentaries, and other references. You can get a *lot* of community made resources from [BibleSupport.com][2] - some are even well-made! - and premium (read: paid) resources can be found over at [eStudySource][3]. Keep an eye on the latter, as they run sales from time to time. Some of the resources I'll be using were purchased there.
 
 The Android, iOS, and Mac versions are not free, but are reasonably priced in the USD $3 - $10 range depending on which version you're looking at. Purchased modules from BibleSupport.com can be downloaded to all platforms and do not need to be purchased more than once.
 
@@ -30,11 +34,15 @@ The Android, iOS, and Mac versions are not free, but are reasonably priced in th
 
 ### Blue Letter Bible
 
-[Blue Letter Bible][7] is another web offering like Lumina, however Blue Letter Bible has more translations available, more commentaries and other resources, as well as apps for Android and iOS. Some do find the web interface to be less user-friendly than Lumina's. The Android app (and presumably the iOS app) has a nice interface, and supports downloading Bibles for offline reading. Blue Letter Bible also offers articles and other resources that are outside the scope of my evaluation.
+[Blue Letter Bible][7] is another web offering like Lumina, however Blue Letter Bible has more translations available, more commentaries and other resources, as well as apps for Android and iOS.
+
+Some find the web interface to be less user-friendly than Lumina's. The Android app (and presumably the iOS app) has a nice interface, and supports downloading Bibles for offline reading. Blue Letter Bible also offers articles and other resources that are outside the scope of my evaluation.
 
 ### YouVersion/Bible App
 
-I knew them as [YouVersion][8] when I started using their Android app, back before e-Sword had an Android app of their own, but the website now seems to call it simply "Bible App". Either way, they have a free web version that's fairly simple and straight-forward. Quite a few different Bible translations, and those that offer notes and comments (like NET) will also surface those. The Android app is in similar shape, and supports downloading Bibles for offline reading. They also offer articles about various topics, but I've found them to be of very &hellip; mixed &hellip; quality. There are few that I've read and would also recommend.
+I knew them as [YouVersion][8] when I started using their Android app, back before e-Sword had an Android app of their own, but the website now seems to call it simply "Bible App". Either way, they have a free web version that's fairly simple and straight-forward. Quite a few different Bible translations, and those that offer notes and comments (like NET) will also surface those.
+
+The Android app is in similar shape, and supports downloading Bibles for offline reading. They also offer articles about various topics, but I've found them to be of very &hellip; mixed &hellip; quality. There are few that I've read and would also recommend.
 
 ### Bible Gateway
 
@@ -44,7 +52,7 @@ I would be remiss if I didn't mention [Bible Gateway][9]. They've been around ag
 
 There have been *a lot* of Bible translations over the centuries, and I'll talk a little bit about that towards the tail end of the introductory series. In addition to being available via the resources in the Software section, print editions are available from the publishers, Amazon, and most book stores. There's Kindle editions available for almost all of them, and some have free digital versions available for you to download.
 
-The first six listed below are the primary translation for all the reading in this study (NET), and the five reference translations I read in parallel to take note of differences worth highlighting.
+The first six listed below are the primary translation for all the reading in this study. The New English Translation (NET) is the primary translation for reading throughout the series, and the next five I read in "compare" mode to take note of any differences worth highlighting.
 
 ### New English Translation (NET, NET Bible)
 
@@ -65,6 +73,22 @@ The [English Standard Version][12], usually abbreviated **ESV**, was published i
 ### CPDV
 
 ## Commentaries
+
+### NET Notes
+
+### Albert Barnes
+
+### Constable
+
+### Expositor's Bible
+
+### Keil & Delitzsch
+
+### John Gill
+
+### Cambridge Bible
+
+### Jewish New Testament Commentary
 
 ## Other Helps
 

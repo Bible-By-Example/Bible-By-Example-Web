@@ -1,12 +1,6 @@
 CoffeeCraft
 Cloudflare
 eStudySource
-
-NonCommercial
-ShareAlike
-NonCommercial
-Lumina
 YouVersion
-NRSVue
-Crossway
-e-Sword
+Delitzsch
+Keil
