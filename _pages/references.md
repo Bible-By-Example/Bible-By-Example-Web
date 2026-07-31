@@ -6,9 +6,7 @@ toc_label: "Links and Software"
 toc_sticky: true
 ---
 
-There are all sorts of software, tools, and other resources to help with Bible studies of any level. Here's a list of what I am using in the preparation and production of this study; and a few alternatives so you know you what else is available. This is not an exhaustive list.
-
-The first entry is the primary resource I'm using to prepare this series, and the remainder are alternatives that I'm both aware of and willing to recommend. Some of the other programs I've used either seem to be abandoned or I've just not heard anyone using them as much lately. There are definitely far more decent programs than I could hope to list.
+There are a lot of excellent tools available for studying the Bible. These are the ones I use most often while preparing this series, along with a few alternatives that I'm comfortable recommending. This isn't intended to be an exhaustive list — just the resources that have proven useful in my own study.
 
 ## Software
 
@@ -16,17 +14,15 @@ There's still great value in getting a print copy of the Bible, a good notebook,
 
 ### e-Sword
 
-The main program I'm using is [e-Sword][1]. I've been using the PC edition since back around PC version 7 or 8 and the Pocket PC edition. ~~While the PC version's interface is a little &hellip; dated~~, it's still a great program I highly recommend. While composing this page, e-Sword has published version 15 with a brand-new interface, and it looks good.
+The main program I use is [e-Sword][1]. I've been using it since around version 7 or 8 on Windows, and over the years I've also used the Pocket PC, Android, and macOS versions. It's been a dependable part of my Bible study for many years.
 
-There are also versions for macOS, iOS, and Android, and they are fantastic. In addition to the PC version on my main computer, I use the Android version (which supports downloading Bibles and other resources for offline reading) on my phone and tablet, and the Mac version on my MacBook Air.
+The Windows version is free and includes an excellent collection of Bible translations, commentaries, dictionaries, and other study tools. Additional free resources are available through [BibleSupport.com][2], while commercial resources can be purchased from [eStudySource][3], which frequently runs sales.
 
-The PC version is free, and it comes with access to an amazing list of free Bible translations, commentaries, and other references. You can get a *lot* of community made resources from [BibleSupport.com][2] - some are even well-made! - and premium (read: paid) resources can be found over at [eStudySource][3]. Keep an eye on the latter, as they run sales from time to time. Some of the resources I'll be using were purchased there.
-
-The Android, iOS, and Mac versions are not free, but are reasonably priced in the USD $3 - $10 range depending on which version you're looking at. Purchased modules from BibleSupport.com can be downloaded to all platforms and do not need to be purchased more than once.
+The Android, iOS, and macOS versions are inexpensive, support offline reading, and can use the same purchased modules without buying them again.
 
 ### Lumina
 
-[Lumina][4] is a free online study tool provided by [Bible.org][5], the home of the New English Translation (NET). It's free, provides access to a small selection of Bible translations, the NET Translators notes, and few commentaries - I'm fond of Constable's Notes, but I'll get into that in its proper place. This is one of the few programs that has his notes available.
+[Lumina][4] is a free web-based study suite from [Bible.org][5], the home of the New English Translation (NET). It features a clean interface that gives you direct access to the NET Translator Notes and Dr. Thomas Constable’s commentary notes — a resource not always available in other software.
 
 ### Logos Bible Study App
 
