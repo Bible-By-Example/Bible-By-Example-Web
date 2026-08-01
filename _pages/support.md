@@ -2,7 +2,7 @@
 title: "Support the Show"
 description: "Ways to support Bible By Example"
 toc: true
-toc_label: "Support Options"
+toc_label: "Support"
 toc_sticky: true
 ---
 
