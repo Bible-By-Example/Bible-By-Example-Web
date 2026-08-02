@@ -6,65 +6,65 @@ toc_label: "Links and Software"
 toc_sticky: true
 ---
 
-There are a lot of excellent tools available for studying the Bible. These are the ones I use most often while preparing this series, along with a few alternatives that I'm comfortable recommending. This isn't intended to be an exhaustive list — just the resources that have proven useful in my own study.
+There are a lot of excellent tools available for studying the Bible. These are the resources I use most often while preparing *Bible By Example*, along with a few alternatives I'm comfortable recommending. This isn't intended to be an exhaustive list—just the resources that have consistently proven useful in my own study.
 
 ## Software
 
-There's still great value in getting a print copy of the Bible, a good notebook, and various commentaries in "dead tree" editions. I am an IT guy at heart, so I lean more towards programs like these.
+There's still great value in getting a print copy of the Bible, a good notebook, and various commentaries in "dead tree" editions. But as an IT guy at heart, I lean heavily toward digital tools.
 
 ### e-Sword
 
-The main program I use is [e-Sword][1]. I've been using it since around version 7 or 8 on Windows, and over the years I've also used the Pocket PC, Android, and macOS versions. It's been a dependable part of my Bible study for many years.
+The main program I use is [e-Sword][1]. I've been using it since around version 7 or 8 on Windows, and over the years I've used it on Pocket PC, Android, and macOS. It's been a dependable staple of my Bible study for years.
 
-The Windows version is free and includes an excellent collection of Bible translations, commentaries, dictionaries, and other study tools. Additional free resources are available through [BibleSupport.com][2], while commercial resources can be purchased from [eStudySource][3], which frequently runs sales.
+The Windows version is free and comes with a solid collection of translations, commentaries, and dictionaries. You can grab extra free resources over at [BibleSupport.com][2], or pick up commercial add-ons from [eStudySource][3] (which frequently runs sales).
 
-The Android, iOS, and macOS versions are inexpensive, support offline reading, and can use the same purchased modules without buying them again.
+The Android, iOS, and macOS versions are inexpensive, work offline, and let you share paid modules across devices without buying them twice.
 
 ### Lumina
 
-[Lumina][4] is a free web-based study suite from [Bible.org][5], the home of the New English Translation (NET). It features a clean interface that gives you direct access to the NET Translator Notes and Dr. Thomas Constable’s commentary notes — a resource not always available in other software.
+[Lumina][4] is a free web tool provided by [Bible.org][5], the home of the New English Translation (NET). It’s lightweight, easy to navigate, and gives you direct access to the NET Translator Notes and Dr. Thomas Constable’s notes — a combo you don't always find in other web tools.
 
 ### Logos Bible Study App
 
-[Logos][6] is the premier professional suite available across Windows, Mac, iOS, and Android. While it operates on a subscription or premium-tier model that requires a financial investment, it remains one of the most comprehensive tools available for serious academic and pastoral study.
+[Logos][6] is one of the most comprehensive Bible study platforms available. While it's built around paid resources and subscriptions, it has earned a strong reputation among pastors, teachers, and academic scholars.
 
 ### Blue Letter Bible
 
-[Blue Letter Bible][7] is another free web platform and mobile app (Android/iOS). It offers a wider range of translations and classic commentaries than Lumina, alongside interlinear tools, lexicons, and offline Bible downloads on mobile.
+[Blue Letter Bible][7] offers an excellent collection of Bible translations, classic commentaries, lexicons, interlinear tools, and mobile apps. It's one of the best free online study resources available.
 
-### YouVersion/Bible App
+### YouVersion / Bible App
 
-I knew them as [YouVersion][8] when I started using their Android app, back before e-Sword had an Android app of their own, but the website now seems to call it simply "Bible App". It is ideal for quick reading across dozens of translations on the web or mobile. It supports offline reading and offers simple cross-referencing, though its community-submitted devotional content varies widely in quality.
+[YouVersion][16] published under that name when I first started using their Android app, though they apparently changed the name of the product to [Bible App][8]. It is excellent for reading across dozens of translations on nearly any device. It also supports offline reading and simple cross-references. While it includes a large library of devotional material, I recommend approaching user-contributed content with discernment.
 
 ## Bible Translations
 
-The NET Bible is the primary translation used throughout Bible By Example. As I prepare each episode, I compare it with several other translations. When those translations differ in a meaningful way, or when the NET translators discuss an important textual or translation decision, I'll occasionally point those differences out.
+The NET Bible is my main reading translation for *Bible By Example*. As I prepare each episode, I compare it against several other translations. When those versions differ in a meaningful way, or when the translators make a noteworthy choice, I'll point those differences out.
 
-These aren't the only good English translations, but they're the ones you'll hear referenced most often throughout the series.
+These aren't the only good English translations around, but they are the ones you'll hear me mention most often.
 
 ### New English Translation (NET, NET Bible)
 
-The [New English Translation][9] is a modern, original-language translation designed at a middle-school reading level. It uses a dynamic equivalence style in the main text, but its true power lies in its extensive translator notes. These notes explain translational choices, textual variants, and alternative manuscript readings in remarkable detail.
+The [New English Translation][9] is the primary Bible used throughout this series. While the translation itself is clear and readable, its greatest strength is the extensive translator notes, which explain manuscript evidence, translation choices, and alternate renderings in remarkable detail. Few modern study resources are as transparent about why they translated a passage the way they did.
 
 ### New Revised Standard Version Update Edition (NRSVue)
 
-The [New Revised Standard Version Updated Edition][10] (2021) is an updated revision of the 1989 NRSV, built by an ecumenical committee of scholars. Written at a high-school reading level, it uses a formal equivalence (word-for-word) approach. It reflects broad scholarly consensus and incorporates modern grammatical research, particularly regarding collective and gender-neutral language.
+The [New Revised Standard Version Updated Edition][10] (2021) is one of the most widely respected modern scholarly translations. Produced by an ecumenical committee of scholars, it reflects current textual research and serves as one of my primary comparison translations.
 
 ### English Standard Version (ESV)
 
-Published in 2001 by Crossway, the [English Standard Version][11] is an essentially literal revision of the 1971 RSV text. Written at an 8th-grade reading level, it balances formal equivalence with modern English readability and is widely used across conservative evangelical churches.
+The [English Standard Version][11] is an essentially literal translation that balances formal equivalence with modern English readability. It's one of the most widely used translations among conservative evangelical churches and provides another valuable comparison.
 
 ### Complete Jewish Bible (CJB)
 
-The [Complete Jewish Bible][12] (CJB) is included because it presents the Scriptures with a distinctly Jewish perspective. It restores many Hebrew names, cultural idioms, and terms that are often Anglicized in English translations, making connections between the Old and New Testaments more apparent. I find it valuable for highlighting the Jewish context of the biblical authors.
+The [Complete Jewish Bible][12] emphasizes the Jewish context of Scripture by preserving many Hebrew names and expressions. I find it particularly helpful when exploring the cultural and historical background shared by both the Old and New Testaments.
 
 ### King James Version (KJV)
 
-First published in 1611, the [King James Version][13] remains a monumental piece of English literature and historical translation. Because it is in the public domain in most of the world, it serves as a universal baseline for classic references, concordances, and historical commentary work. I'll occasionally reference it because many familiar quotations come from the KJV, and older commentaries often assume its wording.
+The [King James Version][13] has shaped English-speaking Christianity for more than four centuries. While I won't use it as a primary study Bible, I'll occasionally reference it because many familiar quotations, older commentaries, and classic theological works assume its wording.
 
 ### Catholic Public Domain Version (CPDV)
 
-The [Catholic Public Domain Version][14] is a modern, verse-by-verse literal translation based on the Latin Vulgate (guided by the Douay-Rheims). It provides a reliable public-domain Catholic text for comparative study, including the Deuterocanonical books. While it isn't as widely used as some other Catholic translations, it's freely available and provides another helpful point of comparison when traditions differ.
+The [Catholic Public Domain Version][14] provides a modern Catholic translation based primarily on the Latin Vulgate. It includes the Deuterocanonical books and gives me a freely available Catholic perspective when comparing traditions.
 
 ## Commentaries
 
@@ -125,3 +125,4 @@ Written by David H. Stern as a companion to the Complete Jewish Bible, the JNTC 
 [13]: https://www.kingjamesbibleonline.org/
 [14]: http://www.sacredbible.org/catholic/
 [15]: https://soniclight.com/constable/
+[16]: https://www.youversion.com/
