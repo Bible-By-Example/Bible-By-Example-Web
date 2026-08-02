@@ -6,7 +6,9 @@ toc_label: "Links and Software"
 toc_sticky: true
 ---
 
-There are a lot of excellent tools available for studying the Bible. These are the resources I use most often while preparing *Bible By Example*, along with a few alternatives I'm comfortable recommending. This isn't intended to be an exhaustive list—just the resources that have consistently proven useful in my own study.
+There are a lot of excellent tools available for studying the Bible. These are the resources I use most often while preparing *Bible By Example*, along with a few alternatives I'm comfortable recommending. This isn't intended to be an exhaustive list, just the resources that have consistently proven useful in my own study.
+
+Ultimately, every tool on this page exists to serve one purpose: helping us better understand what the biblical authors intended to communicate. Software, translations, commentaries, and reference works are valuable tools, but they remain tools &mdash; they should point us back to the text, not replace it.
 
 ## Software
 
@@ -14,7 +16,7 @@ There's still great value in getting a print copy of the Bible, a good notebook,
 
 ### e-Sword
 
-The main program I use is [e-Sword][1]. I've been using it since around version 7 or 8 on Windows, and over the years I've used it on Pocket PC, Android, and macOS. It's been a dependable staple of my Bible study for years.
+The main program I use is [e-Sword][1]. I've been using it since around version 7 or 8 on Windows, and over the years I've used it on Pocket PC, Android, and macOS. It's been a staple of my Bible study for years.
 
 The Windows version is free and comes with a solid collection of translations, commentaries, and dictionaries. You can grab extra free resources over at [BibleSupport.com][2], or pick up commercial add-ons from [eStudySource][3] (which frequently runs sales).
 
@@ -22,7 +24,7 @@ The Android, iOS, and macOS versions are inexpensive, work offline, and let you 
 
 ### Lumina
 
-[Lumina][4] is a free web tool provided by [Bible.org][5], the home of the New English Translation (NET). It’s lightweight, easy to navigate, and gives you direct access to the NET Translator Notes and Dr. Thomas Constable’s notes — a combo you don't always find in other web tools.
+[Lumina][4] is a free web tool provided by [Bible.org][5], the home of the New English Translation (NET). It’s lightweight, easy to navigate, and gives you direct access to the NET Translator Notes and Dr. Thomas Constable’s notes &mdash; a combo you don't always find in other web tools.
 
 ### Logos Bible Study App
 
@@ -68,47 +70,77 @@ The [Catholic Public Domain Version][14] provides a modern Catholic translation 
 
 ## Commentaries
 
-There are a wealth of commentaries available for free, and even more available at increasingly reasonable cost. Below are the commentaries I will be consulting most frequently as I prepare for each episode, and the perspective they bring.
+No commentary is inspired. Whenever respected scholars disagree &mdash; and they often do &mdash; I try to understand why before reaching a conclusion. You'll occasionally hear me reference multiple commentaries that arrive at different answers to the same passage. That's intentional. My goal isn't to collect opinions, but to compare them against the biblical text itself.
+
+These are the commentaries I'll consult most often while preparing each episode.
 
 ### NET Notes
 
-The NET translator's notes are my most-used study resource. They explain textual variants, translation decisions, manuscript evidence, and alternate renderings with a level of transparency that's difficult to find elsewhere.
+The NET Translator Notes are my single most-used study resource. They explain textual variants, manuscript evidence, translation decisions, and alternate renderings with a level of transparency that's difficult to find anywhere else.
 
 ### Albert Barnes (Notes on the Bible)
 
-Barnes' Notes are concise, readable, and practical. Even though they're over 150 years old, they remain a solid general-purpose commentary, offering a practical, pastoral, and verse-by-verse analysis that remains accessible and thoughtful.
+Barnes' *Notes on the Bible* remains one of the best concise, verse-by-verse commentaries available. Although it was written in the nineteenth century, it continues to provide thoughtful pastoral insight and practical explanation.
 
 ### Dr. Thomas Constable’s Expository Notes
 
-Constable's Notes are among my favorite modern commentaries. They're well organized, easy to read, and strike a good balance between technical detail and accessibility. They offer an evangelical, dispensational perspective with strong outlines and historical context.
+Dr. Thomas Constable's *Expository Notes* strike an excellent balance between accessibility and depth. His outlines, historical background, and practical observations make these among my favorite modern commentaries.
 
-The e-Sword module offered by [BibleSupport.com][2] is based off the 2012 edition of his notes. He updates them every year he teaches, and you can find HTML and PDF versions of the most current notes on the [Sonic Light][15] website.
+The edition available through [BibleSupport.com][2] is based on the 2012 release. Dr. Constable continues to update his notes, and the most recent editions are available through [Sonic Light][15].
 
 ### Expositor's Bible
 
-This classic multi-volume work focuses on expository essays rather than strict technical parsing. It provides rich thematic commentary, practical applications, and narrative synthesis. The Expositor's Bible Commentary provides all that while remaining approachable for non-specialists.
+*The Expositor's Bible* focuses more on exposition than technical analysis, emphasizing the broader themes and flow of each book.
 
-I take issue with many entries in this commentary, and yet I will refer to it regularly. It's not a proper study if you only read the things you like.
+I disagree with a number of its conclusions, yet I continue to consult it regularly. Good study isn't about reading only the authors who already agree with us.
 
 ### Keil & Delitzsch
 
-A foundational 19th-century Old Testament commentary. Carl Friedrich Keil and Franz Delitzsch provide deep grammatical, historical, and linguistic insights focused heavily on original Hebrew and Semitic contexts. It's older and more technical than some modern works, but still valuable for understanding the Hebrew text.
+Keil and Delitzsch's Old Testament commentary remains one of the classic scholarly works on the Hebrew Scriptures. Though older and more technical than many modern commentaries, it continues to offer valuable grammatical, historical, and linguistic insight.
 
 ### John Gill (Exposition of the Entire Bible)
 
-An 18th-century verse-by-verse commentary by theologian John Gill. His work is especially valuable for its deep Rabbinic insights, historical context, and integration of classical Hebrew study. Gill's commentary reflects a distinctly Reformed Baptist perspective and often draws heavily on Jewish sources and earlier Christian writers.
+John Gill's *Exposition of the Entire Bible* frequently draws from rabbinic sources and earlier Christian writers. While written from a Reformed Baptist perspective, it often preserves historical observations that remain useful today.
 
 ### Cambridge Bible for Schools and Colleges
 
-A late 19th- to early 20th-century commentary series praised for its succinct, reliable historical context, geographical notes, and clear verse-by-verse notes without getting bogged down in dense academic debate. The Cambridge Bible for Schools and Colleges is particularly useful for understanding the context of individual books.
+The *Cambridge Bible for Schools and Colleges* provides concise historical background and literary commentary without becoming overly technical. It's particularly helpful for understanding the setting of individual books.
 
 ### Jewish New Testament Commentary (JNTC)
 
-Written by David H. Stern as a companion to the Complete Jewish Bible, the JNTC addresses the Jewish background, rabbinic parallels, historical customs, and theological nuances of the New Testament text within its first-century Jewish setting. It's especially helpful for understanding Jewish customs, idioms, and cultural references that modern readers can easily miss.
+Written by David H. Stern as a companion to the Complete Jewish Bible, this commentary highlights the first-century Jewish context of the New Testament. It's invaluable for catching Jewish customs, idioms, and rabbinic references that modern readers easily walk right past.
 
-## Other Helps
+## Reference Works
 
+Commentaries aren't the only tools that help illuminate a passage. Concordances, dictionaries, cross-reference systems, and historical reference works often answer questions about language, culture, and how different parts of Scripture connect together.
 
+### Concordances and Dictionaries
+
+Strong's Concordance remains one of the most widely used tools for connecting English words with their underlying Hebrew and Greek terms. While I don't recommend building theology from Strong's numbers alone, they're an excellent starting point for further study.
+
+I'll also regularly consult Bible dictionaries, encyclopedias, atlases, and other reference works whenever historical or cultural background helps clarify a passage.
+
+### Cross-References
+
+Cross-reference systems such as the *Treasury of Scripture Knowledge* (TSK) and the *Ultimate Cross-Reference Treasury* (UCRT) help trace themes throughout Scripture. Comparing several cross-reference systems often reveals connections that might otherwise be overlooked.
+
+### Word Studies
+
+Resources such as Vincent's *Word Studies in the New Testament* and Robertson's *Word Pictures in the New Testament* provide valuable discussions of Greek vocabulary and grammar. I treat them as informed commentary rather than the final word, but they often provide useful insight into difficult passages.
+
+### Historical Background
+
+Works covering Second Temple Judaism, ancient Near Eastern history, and Jewish customs frequently help explain details that modern readers naturally miss. These resources provide historical context, but Scripture itself always remains the primary authority.
+
+### Supplemental Perspectives
+
+From time to time I'll also consult authors whose conclusions I frequently disagree with.
+
+Chuck Missler is one example. He was a prominent popularizer of Bible prophecy and exposition and I listen to his audio commentaries and reference his handbooks because his material remains widely influential in many Bible study groups.
+
+However, I approach his work with caution. Missler relied heavily on speculative theories and outdated research — such as Sir Robert Anderson's timeline calculations in *The Coming Prince* or Alexander Hislop's controversial historical claims in *The Two Babylons*. I reference his work not as a primary authority, but to address ideas and interpretations that are still widely circulated today.
+
+I believe it's important to understand an argument before critiquing it. Reading broadly &mdash; and carefully &mdash; helps keep me honest.
 
 [1]: https://e-sword.net/
 [2]: http://www.biblesupport.com/
