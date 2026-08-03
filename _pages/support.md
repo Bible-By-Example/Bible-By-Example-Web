@@ -37,20 +37,21 @@ That tithe currently goes to [Wells of Living Water](https://www.wellsoflivingwa
 
 After the tithe, support goes toward the ordinary costs of producing and distributing the show:
 
-- Taxes and required business expenses.
-- Domain registration and website hosting.
-- Podcast hosting and distribution.
-- Business software and administrative services.
-- Equipment replacement and future improvements.
+1. Taxes: State and Federal.
+2. Business expenses:
+   - Domain registration,
+   - Podcast and Web hosting,
+   - Business software and administrative services.
+3. Equipment replacement and future improvements.
 
-### Project Reinvestment and the "Worker's Wage"
+### Reinvestment
 
-Whatever remains after tithes, taxes, and software bills goes back into the project — funding research materials, commentaries, audio hardware upgrades, and compensate the time spent writing, recording, and producing *Bible By Example*.
+Whatever remains after tithes, taxes, and bills goes back into the project — funding research materials, commentaries, audio hardware upgrades, and compensate the time spent writing, recording, and producing *Bible By Example*.
 
 As support grows, I'd like to:
 
 - Upgrade the RSS.com hosting plan.
-- Expand the Google Workspace subscription as the project grows.
+- Expand the Google Workspace subscription.
 - Cover future hosting costs if the website outgrows the free tier.
 - Purchase additional study resources and reference works.
 - Improve recording equipment and production quality.
