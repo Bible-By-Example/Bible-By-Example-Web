@@ -194,6 +194,7 @@ exclude:
   - .ruby-version
   - .scripts/
   - .vscode/
+  - frontmatter.json
 
   # Build dependencies
   - Gemfile
