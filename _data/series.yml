@@ -1,0 +1,271 @@
+- order: 1
+  name: "Foundations"
+  abbreviation: "FND"
+
+- order: 2
+  name: "Genesis"
+  abbreviation: "Gen"
+
+- order: 3
+  name: "Exodus"
+  abbreviation: "Exo"
+
+- order: 4
+  name: "Leviticus"
+  abbreviation: "Lev"
+
+- order: 5
+  name: "Numbers"
+  abbreviation: "Num"
+
+- order: 6
+  name: "Deuteronomy"
+  abbreviation: "Deu"
+
+- order: 7
+  name: "Joshua"
+  abbreviation: "Jos"
+
+- order: 8
+  name: "Judges"
+  abbreviation: "Jdg"
+
+- order: 9
+  name: "Ruth"
+  abbreviation: "Rut"
+
+- order: 10
+  name: "1 Samuel"
+  abbreviation: "1Sa"
+
+- order: 11
+  name: "2 Samuel"
+  abbreviation: "2Sa"
+
+- order: 12
+  name: "1 Kings"
+  abbreviation: "1Ki"
+
+- order: 13
+  name: "2 Kings"
+  abbreviation: "2Ki"
+
+- order: 14
+  name: "1 Chronicles"
+  abbreviation: "1Ch"
+
+- order: 15
+  name: "2 Chronicles"
+  abbreviation: "2Ch"
+
+- order: 16
+  name: "Ezra"
+  abbreviation: "Ezr"
+
+- order: 17
+  name: "Nehemiah"
+  abbreviation: "Neh"
+
+- order: 18
+  name: "Esther"
+  abbreviation: "Est"
+
+- order: 19
+  name: "Job"
+  abbreviation: "Job"
+
+- order: 20
+  name: "Psalms"
+  abbreviation: "Psa"
+
+- order: 21
+  name: "Proverbs"
+  abbreviation: "Pro"
+
+- order: 22
+  name: "Ecclesiastes"
+  abbreviation: "Ecc"
+
+- order: 23
+  name: "Song of Solomon"
+  abbreviation: "Sng"
+
+- order: 24
+  name: "Isaiah"
+  abbreviation: "Isa"
+
+- order: 25
+  name: "Jeremiah"
+  abbreviation: "Jer"
+
+- order: 26
+  name: "Lamentations"
+  abbreviation: "Lam"
+
+- order: 27
+  name: "Ezekiel"
+  abbreviation: "Ezk"
+
+- order: 28
+  name: "Daniel"
+  abbreviation: "Dan"
+
+- order: 29
+  name: "Hosea"
+  abbreviation: "Hos"
+
+- order: 30
+  name: "Joel"
+  abbreviation: "Jol"
+
+- order: 31
+  name: "Amos"
+  abbreviation: "Amo"
+
+- order: 32
+  name: "Obadiah"
+  abbreviation: "Oba"
+
+- order: 33
+  name: "Jonah"
+  abbreviation: "Jon"
+
+- order: 34
+  name: "Micah"
+  abbreviation: "Mic"
+
+- order: 35
+  name: "Nahum"
+  abbreviation: "Nam"
+
+- order: 36
+  name: "Habakkuk"
+  abbreviation: "Hab"
+
+- order: 37
+  name: "Zephaniah"
+  abbreviation: "Zep"
+
+- order: 38
+  name: "Haggai"
+  abbreviation: "Hag"
+
+- order: 39
+  name: "Zechariah"
+  abbreviation: "Zec"
+
+- order: 40
+  name: "Malachi"
+  abbreviation: "Mal"
+
+- order: 41
+  name: "Intertestamental Interlude"
+  abbreviation: "ITI"
+
+- order: 42
+  name: "Matthew"
+  abbreviation: "Mat"
+
+- order: 43
+  name: "Mark"
+  abbreviation: "Mrk"
+
+- order: 44
+  name: "Luke"
+  abbreviation: "Luk"
+
+- order: 45
+  name: "John"
+  abbreviation: "Jhn"
+
+- order: 46
+  name: "Acts"
+  abbreviation: "Act"
+
+- order: 47
+  name: "Romans"
+  abbreviation: "Rom"
+
+- order: 48
+  name: "1 Corinthians"
+  abbreviation: "1Co"
+
+- order: 49
+  name: "2 Corinthians"
+  abbreviation: "2Co"
+
+- order: 50
+  name: "Galatians"
+  abbreviation: "Gal"
+
+- order: 51
+  name: "Ephesians"
+  abbreviation: "Eph"
+
+- order: 52
+  name: "Philippians"
+  abbreviation: "Php"
+
+- order: 53
+  name: "Colossians"
+  abbreviation: "Col"
+
+- order: 54
+  name: "1 Thessalonians"
+  abbreviation: "1Th"
+
+- order: 55
+  name: "2 Thessalonians"
+  abbreviation: "2Th"
+
+- order: 56
+  name: "1 Timothy"
+  abbreviation: "1Ti"
+
+- order: 57
+  name: "2 Timothy"
+  abbreviation: "2Ti"
+
+- order: 58
+  name: "Titus"
+  abbreviation: "Tit"
+
+- order: 59
+  name: "Philemon"
+  abbreviation: "Phm"
+
+- order: 60
+  name: "Hebrews"
+  abbreviation: "Heb"
+
+- order: 61
+  name: "James"
+  abbreviation: "Jas"
+
+- order: 62
+  name: "1 Peter"
+  abbreviation: "1Pe"
+
+- order: 63
+  name: "2 Peter"
+  abbreviation: "2Pe"
+
+- order: 64
+  name: "1 John"
+  abbreviation: "1Jn"
+
+- order: 65
+  name: "2 John"
+  abbreviation: "2Jn"
+
+- order: 66
+  name: "3 John"
+  abbreviation: "3Jn"
+
+- order: 67
+  name: "Jude"
+  abbreviation: "Jud"
+
+- order: 68
+  name: "Revelation"
+  abbreviation: "Rev"

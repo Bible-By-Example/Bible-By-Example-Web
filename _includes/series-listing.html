@@ -1,0 +1,19 @@
+<h1>{{ include.series }}</h1>
+
+{% include episode_zero.html %}
+
+{% assign eps = site.episodes | where: "series", include.series | sort: "episode" %}
+{% assign grouped = eps | group_by: "season" %}
+
+{% for season in grouped %}
+  <h2>Season {{ season.name }}</h2>
+  <ul>
+    {% for ep in season.items %}
+      <li>
+        <a href="{{ ep.url }}">
+          Episode {{ ep.episode }}: {{ ep.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

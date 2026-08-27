@@ -5,3 +5,13 @@ author_profile: false
 <p>Bible By Example is a long-form, text-first Bible study podcast for anyone who wants to read Scripture responsibly - whether you’re new to Christianity, returning to it, or simply curious.</p>
 
 <p>If you want grounded, thoughtful study without denominational spin, this is your place.</p>
+
+<h2>Latest Updates and Episodes</h2>
+
+{% assign combined_feed = site.posts | concat: site.episodes | sort: "date" | reverse %}
+
+<div class="entries-list">
+  {% for post in combined_feed limit: 5 %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>

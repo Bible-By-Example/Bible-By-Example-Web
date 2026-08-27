@@ -328,6 +328,9 @@ compress_html:
 
 # Collections
 collections:
+  episodes:
+    output               : true
+    permalink            : /:collection/:name:output_ext
   pages:
     output               : true
     permalink            : /:title:output_ext
@@ -337,6 +340,30 @@ collections:
 
 # Defaults
 defaults:
+  # _episodes
+  - scope:
+      path               : "_episodes"
+      type               : episodes
+    values:
+      layout             : episode
+      author_profile     : false
+      author             : Bible By Example
+      read_time          : false
+      comments           : false
+      share              : true
+      related            : false
+  # _pages
+  - scope:
+      path               : "_pages"
+      type               : pages
+    values:
+      layout             : pages
+      author_profile     : false
+      author             : Bible By Example
+      read_time          : false
+      comments           : false # true
+      share              : false
+      related            : false
   # _posts
   - scope:
       path               : "_posts"
@@ -351,16 +378,3 @@ defaults:
       share              : true
       show_taxonomy      : true
       related            : false
-  # _pages
-  - scope:
-      path               : "_pages"
-      type               : pages
-    values:
-      layout             : pages
-      author_profile     : false
-      author             : Bible By Example
-      read_time          : false
-      comments           : false # true
-      share              : false
-      related            : false
-      permalink          : /:title:output_ext
