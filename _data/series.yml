@@ -1,271 +1,339 @@
 - order: 1
   name: "Foundations"
   abbreviation: "FND"
+  slug: "foundations"
 
 - order: 2
   name: "Genesis"
   abbreviation: "Gen"
+  slug: "genesis"
 
 - order: 3
   name: "Exodus"
   abbreviation: "Exo"
+  slug: "exodus"
 
 - order: 4
   name: "Leviticus"
   abbreviation: "Lev"
+  slug: "leviticus"
 
 - order: 5
   name: "Numbers"
   abbreviation: "Num"
+  slug: "numbers"
 
 - order: 6
   name: "Deuteronomy"
   abbreviation: "Deu"
+  slug: "deuteronomy"
 
 - order: 7
   name: "Joshua"
   abbreviation: "Jos"
+  slug: "joshua"
 
 - order: 8
   name: "Judges"
   abbreviation: "Jdg"
+  slug: "judges"
 
 - order: 9
   name: "Ruth"
   abbreviation: "Rut"
+  slug: "ruth"
 
 - order: 10
   name: "1 Samuel"
   abbreviation: "1Sa"
+  slug: "1_samuel"
 
 - order: 11
   name: "2 Samuel"
   abbreviation: "2Sa"
+  slug: "2_samuel"
 
 - order: 12
   name: "1 Kings"
   abbreviation: "1Ki"
+  slug: "1_kings"
 
 - order: 13
   name: "2 Kings"
   abbreviation: "2Ki"
+  slug: "2_kings"
 
 - order: 14
   name: "1 Chronicles"
   abbreviation: "1Ch"
+  slug: "1_chronicles"
 
 - order: 15
   name: "2 Chronicles"
   abbreviation: "2Ch"
+  slug: "2_chronicles"
 
 - order: 16
   name: "Ezra"
   abbreviation: "Ezr"
+  slug: "ezra"
 
 - order: 17
   name: "Nehemiah"
   abbreviation: "Neh"
+  slug: "nehemiah"
 
 - order: 18
   name: "Esther"
   abbreviation: "Est"
+  slug: "esther"
 
 - order: 19
   name: "Job"
   abbreviation: "Job"
+  slug: "job"
 
 - order: 20
   name: "Psalms"
   abbreviation: "Psa"
+  slug: "psalms"
 
 - order: 21
   name: "Proverbs"
   abbreviation: "Pro"
+  slug: "proverbs"
 
 - order: 22
   name: "Ecclesiastes"
   abbreviation: "Ecc"
+  slug: "ecclesiastes"
 
 - order: 23
   name: "Song of Solomon"
   abbreviation: "Sng"
+  slug: "song_of_solomon"
 
 - order: 24
   name: "Isaiah"
   abbreviation: "Isa"
+  slug: "isaiah"
 
 - order: 25
   name: "Jeremiah"
   abbreviation: "Jer"
+  slug: "jeremiah"
 
 - order: 26
   name: "Lamentations"
   abbreviation: "Lam"
+  slug: "lamentations"
 
 - order: 27
   name: "Ezekiel"
   abbreviation: "Ezk"
+  slug: "ezekiel"
 
 - order: 28
   name: "Daniel"
   abbreviation: "Dan"
+  slug: "daniel"
 
 - order: 29
   name: "Hosea"
   abbreviation: "Hos"
+  slug: "hosea"
 
 - order: 30
   name: "Joel"
   abbreviation: "Jol"
+  slug: "joel"
 
 - order: 31
   name: "Amos"
   abbreviation: "Amo"
+  slug: "amos"
 
 - order: 32
   name: "Obadiah"
   abbreviation: "Oba"
+  slug: "obadiah"
 
 - order: 33
   name: "Jonah"
   abbreviation: "Jon"
+  slug: "jonah"
 
 - order: 34
   name: "Micah"
   abbreviation: "Mic"
+  slug: "micah"
 
 - order: 35
   name: "Nahum"
   abbreviation: "Nam"
+  slug: "nahum"
 
 - order: 36
   name: "Habakkuk"
   abbreviation: "Hab"
+  slug: "habakkuk"
 
 - order: 37
   name: "Zephaniah"
   abbreviation: "Zep"
+  slug: "zephaniah"
 
 - order: 38
   name: "Haggai"
   abbreviation: "Hag"
+  slug: "haggai"
 
 - order: 39
   name: "Zechariah"
   abbreviation: "Zec"
+  slug: "zechariah"
 
 - order: 40
   name: "Malachi"
   abbreviation: "Mal"
+  slug: "malachi"
 
 - order: 41
   name: "Intertestamental Interlude"
   abbreviation: "ITI"
+  slug: "intertestamental"
 
 - order: 42
   name: "Matthew"
   abbreviation: "Mat"
+  slug: "matthew"
 
 - order: 43
   name: "Mark"
   abbreviation: "Mrk"
+  slug: "mark"
 
 - order: 44
   name: "Luke"
   abbreviation: "Luk"
+  slug: "luke"
 
 - order: 45
   name: "John"
   abbreviation: "Jhn"
+  slug: "john"
 
 - order: 46
   name: "Acts"
   abbreviation: "Act"
+  slug: "acts"
 
 - order: 47
   name: "Romans"
   abbreviation: "Rom"
+  slug: "romans"
 
 - order: 48
   name: "1 Corinthians"
   abbreviation: "1Co"
+  slug: "1_corinthians"
 
 - order: 49
   name: "2 Corinthians"
   abbreviation: "2Co"
+  slug: "2_corinthians"
 
 - order: 50
   name: "Galatians"
   abbreviation: "Gal"
+  slug: "galatians"
 
 - order: 51
   name: "Ephesians"
   abbreviation: "Eph"
+  slug: "ephesians"
 
 - order: 52
   name: "Philippians"
   abbreviation: "Php"
+  slug: "philippians"
 
 - order: 53
   name: "Colossians"
   abbreviation: "Col"
+  slug: "colossians"
 
 - order: 54
   name: "1 Thessalonians"
   abbreviation: "1Th"
+  slug: "1_thessalonians"
 
 - order: 55
   name: "2 Thessalonians"
   abbreviation: "2Th"
+  slug: "2_thessalonians"
 
 - order: 56
   name: "1 Timothy"
   abbreviation: "1Ti"
+  slug: "1_timothy"
 
 - order: 57
   name: "2 Timothy"
   abbreviation: "2Ti"
+  slug: "2_timothy"
 
 - order: 58
   name: "Titus"
   abbreviation: "Tit"
+  slug: "titus"
 
 - order: 59
   name: "Philemon"
   abbreviation: "Phm"
+  slug: "philemon"
 
 - order: 60
   name: "Hebrews"
   abbreviation: "Heb"
+  slug: "hebrews"
 
 - order: 61
   name: "James"
   abbreviation: "Jas"
+  slug: "james"
 
 - order: 62
   name: "1 Peter"
   abbreviation: "1Pe"
+  slug: "1_peter"
 
 - order: 63
   name: "2 Peter"
   abbreviation: "2Pe"
+  slug: "2_peter"
 
 - order: 64
   name: "1 John"
   abbreviation: "1Jn"
+  slug: "1_john"
 
 - order: 65
   name: "2 John"
   abbreviation: "2Jn"
+  slug: "2_john"
 
 - order: 66
   name: "3 John"
   abbreviation: "3Jn"
+  slug: "3_john"
 
 - order: 67
   name: "Jude"
   abbreviation: "Jud"
+  slug: "jude"
 
 - order: 68
   name: "Revelation"
   abbreviation: "Rev"
+  slug: "revelation"

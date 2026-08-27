@@ -334,6 +334,9 @@ collections:
   pages:
     output               : true
     permalink            : /:title:output_ext
+  series:
+    output               : true
+    permalink            : /series/:slug/
   styleguide:            # Defined in _config.dev.yml and _config.prod.yml, keeping a sensible default just in case
     output               : false
 
@@ -377,4 +380,16 @@ defaults:
       comments           : # true
       share              : true
       show_taxonomy      : true
+      related            : false
+  # _series
+  - scope:
+      path               : "_series"
+      type               : series
+    values:
+      layout             : pages
+      author_profile     : false
+      author             : Bible By Example
+      read_time          : false
+      comments           : false # true
+      share              : true
       related            : false
