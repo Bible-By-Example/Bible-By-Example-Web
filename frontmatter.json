@@ -65,6 +65,10 @@
     {
       "title": "Pages",
       "path": "[[workspace]]/_pages"
+    },
+    {
+      "title": "Episodes",
+      "path": "[[workspace]]/_episodes"
     }
   ],
   "frontMatter.git.enabled": true,
