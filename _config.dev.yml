@@ -3,6 +3,8 @@ title                    : "Bible By Example (Dev)"
 url                      : "https://dev.biblebyexample.com"
 environment              : development
 
+breadcrumbs              : true # true, false (default)
+
 # Sass/SCSS
 sass:
   style                  : expanded # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

@@ -21,7 +21,7 @@ repository               : "Bible-By-Example/Bible-By-Example-Web"
 teaser                   : "/assets/img/Logo.Main.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/img/Logo.Book.64w.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -63,11 +63,11 @@ reCaptcha:
 
 # Generate Atom feeds - https://github.com/jekyll/jekyll-feed
 feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "/rss-posts.xml" # blank (default) uses feed.xml
   posts_limit            : 15
 # Minimal Mistakes has some similar settings, but only used by the theme logic - not the plugin.
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "/rss-posts.xml" # blank (default) uses feed.xml
   hide                   : # true, false (default)
 
 search                   : # true, false (default)
@@ -94,6 +94,8 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               :
+  card                   : # The site's default card type
+
 facebook:
   username               :
   app_id                 :
@@ -296,23 +298,21 @@ plugins:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type                   : jekyll-archives
+  path                   : /category/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type                   : jekyll-archives
+  path                   : /tag/
 # show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+tag_archive_path         : "/tag/:name"
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag                  : tagpage
+  permalinks:
+    tag                  : /tag/:name/
 
 
 # HTML Compression https://jch.penibelst.de/
