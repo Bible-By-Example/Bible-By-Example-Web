@@ -11,7 +11,7 @@ description: "Past articles and episodes."
   {% endfor %}
 </div>
 
-Full Article Archive
+[Full Article Archive]({% link _pages/history.md %})
 
 ## Episodes
 
