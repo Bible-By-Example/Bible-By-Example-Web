@@ -100,7 +100,7 @@ facebook:
   publisher              :
 
 og_image                 : "/assets/res/Logo.Main.png" # Open Graph/Twitter default site image
-og_image_alt             : # Alt text for Open Graph/Twitter default site image
+og_image_alt             : "Bible By Example" # Alt text for Open Graph/Twitter default site image
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -244,7 +244,7 @@ sass:
 
 
 # Outputting
-permalink                : /:year/:month/:title.html # old - permalink: /:categories/:title/
+permalink                : /articles/:year-:month-:day-:title.html # old - permalink: /:categories/:title/
 date_format              : "%d %b %Y" # "%d %b %Y %H:%M" if I want to include time later
 timezone                 : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
