@@ -46,32 +46,32 @@
 - order: 10
   name: "1 Samuel"
   abbreviation: "1Sa"
-  slug: "1_samuel"
+  slug: "1-samuel"
 
 - order: 11
   name: "2 Samuel"
   abbreviation: "2Sa"
-  slug: "2_samuel"
+  slug: "2-samuel"
 
 - order: 12
   name: "1 Kings"
   abbreviation: "1Ki"
-  slug: "1_kings"
+  slug: "1-kings"
 
 - order: 13
   name: "2 Kings"
   abbreviation: "2Ki"
-  slug: "2_kings"
+  slug: "2-kings"
 
 - order: 14
   name: "1 Chronicles"
   abbreviation: "1Ch"
-  slug: "1_chronicles"
+  slug: "1-chronicles"
 
 - order: 15
   name: "2 Chronicles"
   abbreviation: "2Ch"
-  slug: "2_chronicles"
+  slug: "2-chronicles"
 
 - order: 16
   name: "Ezra"
@@ -111,7 +111,7 @@
 - order: 23
   name: "Song of Solomon"
   abbreviation: "Sng"
-  slug: "song_of_solomon"
+  slug: "song-of-solomon"
 
 - order: 24
   name: "Isaiah"
@@ -236,12 +236,12 @@
 - order: 48
   name: "1 Corinthians"
   abbreviation: "1Co"
-  slug: "1_corinthians"
+  slug: "1-corinthians"
 
 - order: 49
   name: "2 Corinthians"
   abbreviation: "2Co"
-  slug: "2_corinthians"
+  slug: "2-corinthians"
 
 - order: 50
   name: "Galatians"
@@ -266,22 +266,22 @@
 - order: 54
   name: "1 Thessalonians"
   abbreviation: "1Th"
-  slug: "1_thessalonians"
+  slug: "1-thessalonians"
 
 - order: 55
   name: "2 Thessalonians"
   abbreviation: "2Th"
-  slug: "2_thessalonians"
+  slug: "2-thessalonians"
 
 - order: 56
   name: "1 Timothy"
   abbreviation: "1Ti"
-  slug: "1_timothy"
+  slug: "1-timothy"
 
 - order: 57
   name: "2 Timothy"
   abbreviation: "2Ti"
-  slug: "2_timothy"
+  slug: "2-timothy"
 
 - order: 58
   name: "Titus"
@@ -306,27 +306,27 @@
 - order: 62
   name: "1 Peter"
   abbreviation: "1Pe"
-  slug: "1_peter"
+  slug: "1-peter"
 
 - order: 63
   name: "2 Peter"
   abbreviation: "2Pe"
-  slug: "2_peter"
+  slug: "2-peter"
 
 - order: 64
   name: "1 John"
   abbreviation: "1Jn"
-  slug: "1_john"
+  slug: "1-john"
 
 - order: 65
   name: "2 John"
   abbreviation: "2Jn"
-  slug: "2_john"
+  slug: "2-john"
 
 - order: 66
   name: "3 John"
   abbreviation: "3Jn"
-  slug: "3_john"
+  slug: "3-john"
 
 - order: 67
   name: "Jude"
