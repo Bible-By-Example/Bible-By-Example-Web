@@ -3,7 +3,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "catppuccin_mocha" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
@@ -244,7 +244,7 @@ sass:
 
 
 # Outputting
-permalink                : /articles/:year-:month-:day-:title.html # old - permalink: /:categories/:title/
+#permalink                : /articles/:year-:month-:day-:title.html # old - permalink: /:categories/:title/
 date_format              : "%d %b %Y" # "%d %b %Y %H:%M" if I want to include time later
 timezone                 : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -328,13 +328,16 @@ compress_html:
 collections:
   episodes:
     output               : true
-    permalink            : /:collection/:name:output_ext
+    permalink            : /episodes/:basename:output_ext
   pages:
     output               : true
     permalink            : /:title:output_ext
+  posts:
+    output               : true
+    permalink            : /articles/:year-:month-:day-:title:output_ext
   series:
     output               : true
-    permalink            : /series/:slug/
+    permalink            : /:collection/:slug/
   styleguide:            # Defined in _config.dev.yml and _config.prod.yml, keeping a sensible default just in case
     output               : false
 
@@ -391,3 +394,9 @@ defaults:
       comments           : false # true
       share              : true
       related            : false
+
+# Media Player & Distribution Settings
+media_defaults:
+  primary_video          : youtube # Options: youtube, vimeo, google-drive, bilibili
+  primary_audio          : rss_com
+  podcast_rss            : rss_com
