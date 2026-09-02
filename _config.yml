@@ -397,6 +397,17 @@ defaults:
 
 # Media Player & Distribution Settings
 media_defaults:
-  primary_video          : youtube # Options: youtube, vimeo, google-drive, bilibili
-  primary_audio          : rss_com
-  podcast_rss            : rss_com
+  primary_video          : youtube # Options: archive_org, youtube, vimeo, google-drive, bilibili
+  primary_audio          : rss_com # Options: archive_org, rss_com
+  podcast_rss            : rss_com # Options:
+
+# Links to main page for each distribution platform
+podcast_links:
+  rss_com: "https://rss.com/podcasts/bible-by-example/"
+  youtube: "https://www.youtube.com/@BibleByExample"
+  archive_org: "" # I'll have to link to a tag page until there's enough episodes for a collection.
+  patreon: "https://www.patreon.com/cw/BibleByExample"
+  substack: "https://biblebyexample.substack.com/"
+  apple: "" # Can't set up until I have at least one episode published.
+  amazon: "" # Can't set up until I have at least one episode published.
+  spotify: "" # Can't set up until I have at least one episode published.

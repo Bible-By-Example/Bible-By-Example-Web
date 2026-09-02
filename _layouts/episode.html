@@ -7,8 +7,6 @@ layout: single
   {{ page.description }}
 </div>
 
-<!--more-->
-
 <!-- Episode Zero Reminder for new listeners -->
 {% include episode_zero.html %}
 
@@ -19,13 +17,13 @@ layout: single
 
   <!-- Tab Controls -->
   <div class="tab-buttons" style="display: flex; background: var(--global-theme-color-light, #f4f4f4); border-bottom: 1px solid var(--global-border-color, #dbdbdb);">
-    {% if page.distribution.youtube.id or page.distribution.archive_org.id %}
+    {% if page.distribution.youtube.id or page.distribution.archive_org.video %}
       <button class="tab-btn active" onclick="switchMediaTab(event, 'video-tab')" style="padding: 0.75em 1.5em; border: none; background: none; cursor: pointer; font-weight: bold;">
         <i class="fa-solid fa-video"></i> Video
       </button>
     {% endif %}
 
-    {% if page.distribution.rss_com.id or page.distribution.archive_org.id %}
+    {% if page.distribution.rss_com.id or page.distribution.archive_org.audio %}
       <button class="tab-btn" onclick="switchMediaTab(event, 'audio-tab')" style="padding: 0.75em 1.5em; border: none; background: none; cursor: pointer; font-weight: bold;">
         <i class="fa-solid fa-headphones"></i> Audio
       </button>
@@ -36,11 +34,11 @@ layout: single
   <div id="video-tab" class="tab-content" style="display: block; padding: 0;">
     {% if page.distribution.youtube.id and preferred_video == "youtube" %}
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        {% include video id="page.distribution.youtube.id" provider="youtube" %}
+        {% include video id=page.distribution.youtube.id provider="youtube" %}
       </div>
     {% elsif page.distribution.archive_org.id %}
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        {% include video id="page.distribution.archive_org.id" provider="archive_org" %}
+        {% include video id=page.distribution.archive_org.id provider="archive_org" %}
       </div>
     {% endif %}
   </div>
@@ -48,13 +46,17 @@ layout: single
   <!-- Audio Tab Pane -->
   <div id="audio-tab" class="tab-content" style="display: none; padding: 1em;">
     {% if page.distribution.rss_com.id and preferred_audio == "rss_com" %}
-      {% include audio id="page.distribution.rss_com.id" provider="rss_com" %}
+      {% include audio id=page.distribution.rss_com.id provider="rss_com" %}
     {% elsif page.distribution.archive_org.id %}
-      {% include audio id="page.distribution.archive_org.id" provider="archive_org" %}
+      {% include audio id=page.distribution.archive_org.id provider="archive_org" %}
     {% endif %}
   </div>
 
 </div>
+
+Support and listen at <a href="{{ page.distribution.substack }}" target="_blank">Substack</a> or <a href="{{ page.distribution.patreon }}" target="_blank">Patreon</a>.
+
+{% include other-listening.html %}
 
 <script>
 function switchMediaTab(evt, tabName) {
@@ -74,13 +76,5 @@ function switchMediaTab(evt, tabName) {
 }
 </script>
 
-<!--
-
-    Links for:
-      - Patreon,
-      - Substack,
-      - Apple Podcasts,
-      - Amazon Music,
-      - Spotify
-
--->
+<!-- Main Content -->
+{{ content }}
