@@ -10,70 +10,155 @@ layout: single
 <!-- Episode Zero Reminder for new listeners -->
 {% include episode_zero.html %}
 
+<!-- Capture Preferred Providers-->
 {% assign preferred_video = site.media_defaults.primary_video | default: "archive_org" %}
 {% assign preferred_audio = site.media_defaults.primary_audio | default: "archive_org" %}
+
+<!-- Check Availability against preferred providers -->
+{% capture video_id %}
+  {% case preferred_video %}
+    {% when "youtube" %}
+      {% if page.distribution.youtube.id %}
+        {{ page.distribution.youtube.id }}
+      {% elseif page.distribution.archive_org.id %}
+        {{ page.distribution.archive_org.id }}
+        {% assign preferred_video = "archive_org" %}
+        {% assign video_file = page.distribution.archive_org.video %}
+      {% else %}
+        ""
+        {% assign preferred_video = "" %}
+      {% endif %}
+    {% when "archive_org" %}
+      {% if page.distribution.archive_org.id %}
+        {{ page.distribution.archive_org.id }}
+        {% assign video_file = page.distribution.archive_org.video %}
+      {% elsif page.distribution.youtube.id %}
+        {{ page.distribution.youtube.id }}
+        {% assign preferred_video = "youtube" %}
+      {% else %}
+        ""
+        {% assign preferred_video = "" %}
+      {% endif %}
+    {% else %}
+      ""
+      {% assign preferred_video = "" %}
+  {% endcase %}
+{% endcapture %}
+
+<!-- Different method, same idea not sure which is better-->
+{% assign audio_id = "" %}
+{% case preferred_audio %}
+  {% when "rss_com" %}
+    {% if page.distribution.rss_com.id %}
+      {% assign audio_id = page.distribution.rss_com.id %}
+    {% elsif page.distribution.archive_org.id %}
+      {% assign audio_id = page.distribution.archive_org.id %}
+      {% assign preferred_audio = "archive_org" %}
+      {% assign audio_file = page.distribution.archive_org.audio %}
+    {% else %}
+      {% assign audio_id = "" %}
+      {% assign preferred_audio = "" %}
+    {% endif %}
+  {% when "archive_org" %}
+    {% if page.distribution.archive_org.id %}
+      {% assign audio_id = page.distribution.archive_org.id %}
+      {% assign audio_file = page.distribution.archive_org.audio %}
+    {% elsif page.distribution.rss_com.id %}
+      {% assign audio_id = page.distribution.rss_com.id %}
+      {% assign preferred_audio = "rss_com" %}
+    {% else %}
+      {% assign audio_id = "" %}
+      {% assign preferred_audio = "" %}
+    {% endif %}
+  {% else %}
+    {% assign audio_id = "" %}
+    {% assign preferred_audio = "" %}
+{% endcase %}
 
 <div class="media-tabs-container" style="margin-bottom: 2em; border: 1px solid var(--global-border-color, #dbdbdb); border-radius: 6px; overflow: hidden;">
 
   <!-- Tab Controls -->
   <div class="tab-buttons" style="display: flex; background: var(--global-theme-color-light, #f4f4f4); border-bottom: 1px solid var(--global-border-color, #dbdbdb);">
-    {% if page.distribution.youtube.id or page.distribution.archive_org.video %}
-      <button class="tab-btn active" onclick="switchMediaTab(event, 'video-tab')" style="padding: 0.75em 1.5em; border: none; background: none; cursor: pointer; font-weight: bold;">
+    {% if video_id != "" %}
+      <button class="js-media-tab active" data-target="#video-tab" style="padding: 0.75em 1.5em; border: none; background: none; cursor: pointer; font-weight: bold;">
         <i class="fa-solid fa-video"></i> Video
       </button>
     {% endif %}
 
-    {% if page.distribution.rss_com.id or page.distribution.archive_org.audio %}
-      <button class="tab-btn" onclick="switchMediaTab(event, 'audio-tab')" style="padding: 0.75em 1.5em; border: none; background: none; cursor: pointer; font-weight: bold;">
+    {% if audio_id != "" %}
+      <button class="js-media-tab {% if video_id == '' %}active{% endif %}" data-target="#audio-tab" style="padding: 0.75em 1.5em; border: none; background: {% if video_id == '' %}#fff{% else %}none{% endif %}; cursor: pointer; font-weight: bold;">
         <i class="fa-solid fa-headphones"></i> Audio
       </button>
     {% endif %}
   </div>
 
   <!-- Video Tab Pane -->
-  <div id="video-tab" class="tab-content" style="display: block; padding: 0;">
-    {% if page.distribution.youtube.id and preferred_video == "youtube" %}
+  <div id="video-tab" class="js-tab-pane" style="display: block;">
+    {% if preferred_video == "archive_org" %}
+      {% include video id=video_id provider=preferred_video file=video_file %}
+    {% elseif video_id != "" %}
+      {% include video id=video_id provider=preferred_video %}
+    {% else %}
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        {% include video id=page.distribution.youtube.id provider="youtube" %}
-      </div>
-    {% elsif page.distribution.archive_org.id %}
-      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        {% include video id=page.distribution.archive_org.id provider="archive_org" %}
+        Video not available for this episode.
       </div>
     {% endif %}
   </div>
 
   <!-- Audio Tab Pane -->
-  <div id="audio-tab" class="tab-content" style="display: none; padding: 1em;">
-    {% if page.distribution.rss_com.id and preferred_audio == "rss_com" %}
-      {% include audio id=page.distribution.rss_com.id provider="rss_com" %}
-    {% elsif page.distribution.archive_org.id %}
-      {% include audio id=page.distribution.archive_org.id provider="archive_org" %}
+  <div id="audio-tab" class="js-tab-pane" style="display: {% if active_video_id != '' %}none{% else %}block{% endif %}; padding: 1em;">
+    {% if preferred_audio == "archive_org" %}
+      {% include audio id=audio_id provider="archive_org" file=audio_file %}
+    {% elsif audio_id != "" %}
+      {% include audio id=audio_id provider=preferred_audio %}
+    {% else %}
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        Audio not available for this episode.
+      </div>
     {% endif %}
   </div>
 
 </div>
 
-Support and listen at <a href="{{ page.distribution.substack }}" target="_blank">Substack</a> or <a href="{{ page.distribution.patreon }}" target="_blank">Patreon</a>.
+<!-- Substack and Patreon Links -->
+{% if page.distribution.substack %}
+  {% assign substack_link = page.distribution.substack %}
+{% elseif site.podcast_links.substack %}
+  {% assign substack_link = site.podcast_links.substack %}
+{% else %}
+  {% assign substack_link = "" %}
+{% endif %}
 
+{% if page.distribution.patreon %}
+  {% assign patreon_link = page.distribution.patreon %}
+{% elseif site.podcast_links.patreon %}
+  {% assign patreon_link = site.podcast_links.patreon %}
+{% else %}
+  {% assign patreon_link = "" %}
+{% endif %}
+
+<p>Support and listen at:<ul>
+  {% if substack_link != "" %}
+    <li><a href="{{ substack_link }}" target="_blank">Substack</a></li>
+  {% endif %}
+  {% if patreon_link != "" %}
+    <li><a href="{{ patreon_link }}" target="_blank">Patreon</a></li>
+  {% endif %}
+</ul></p>
+
+<!-- Other Listening Options -->
 {% include other-listening.html %}
 
+<!-- jQuery Tab Toggle Logic -->
 <script>
-function switchMediaTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tab-content");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tab-btn");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].classList.remove("active");
-    tablinks[i].style.background = "none";
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.classList.add("active");
-  evt.currentTarget.style.background = "#fff";
-}
+$(document).ready(function() {
+  $('.js-media-tab').on('click', function() {
+    $('.js-media-tab').removeClass('active').css('background', 'none');
+    $(this).addClass('active').css('background', '#fff');
+    $('.js-tab-pane').hide();
+    $($(this).data('target')).show();
+  });
+});
 </script>
 
 <!-- Main Content -->

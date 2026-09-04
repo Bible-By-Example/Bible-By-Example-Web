@@ -1,2 +1,31 @@
+{% assign links = site.podcast_links %}
+{% assign has_directory_links = false %}
 
-Also available to listen on | Apple Podcasts | Amazon Music | Spotify |
+{% if links.apple != "" or links.amazon != "" or links.spotify != "" %}
+  {% assign has_directory_links = true %}
+{% endif %}
+
+{% if has_directory_links %}
+<div class="other-listening-container">
+    <p>Also available to listen on:</p>
+    <div class="other-listening-buttons" style="display: flex; flex-wrap: wrap; gap: 0.5em;">
+      {% if links.apple != "" and links.apple != nil %}
+        <a class="btn btn--inverse" href="{{ links.apple }}" target="_blank" rel="noopener">
+          <i class="fa-brands fa-apple"></i> Apple Podcasts
+        </a>
+      {% endif %}
+
+      {% if links.spotify != "" and links.spotify != nil %}
+        <a class="btn btn--inverse" href="{{ links.spotify }}" target="_blank" rel="noopener">
+          <i class="fa-brands fa-spotify"></i> Spotify
+        </a>
+      {% endif %}
+
+      {% if links.amazon != "" and links.amazon != nil %}
+        <a class="btn btn--inverse" href="{{ links.amazon }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-music"></i> Amazon Music
+        </a>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

@@ -1,4 +1,12 @@
-{% comment %} Based off of the video include {% endcomment %}
+{% comment %} Audio embed include for Jekyll (Based off the video embed include)
+  Usage:
+    {% include audio.html id="AUDIO_ID" provider="PROVIDER" title="TITLE" file="FILE" %}
+  Parameters:
+    - id: The audio ID (required)
+    - provider: The audio provider (required, one of "archive_org", "rss_com")
+    - file: The audio file name (optional, only used for Archive.org)
+    - title: The audio title (optional, defaults to a generic title based on the provider)
+{% endcomment %}
 
 {% capture audio_id %}{{ include.id }}{% endcapture %}
 {% capture audio_provider %}{{ include.provider }}{% endcapture %}
@@ -6,7 +14,11 @@
 {% capture audio_src %}
   {% case audio_provider %}
     {% when "archive_org" %}
-      https://archive.org/embed/{{ audio_id }}
+      {% if include.file %}
+        https://archive.org/embed/{{ audio_id }}/{{ include.file }}
+      {% else %}
+        https://archive.org/embed/{{ audio_id }}
+      {% endif %}
     {% when "rss_com" %}
       https://player.rss.com/bible-by-example/{{ audio_id }}
   {% endcase %}
@@ -32,17 +44,6 @@
 <!-- Courtesy of embedresponsively.com -->
 {% unless audio_src == "" %}
   <div class="responsive-video-container">
-    <iframe src="{{ audio_src }}" title="{{ audio_title }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="{{ audio_src }}" title="{{ audio_title }}" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
   </div>
 {% endunless %}
-
-{% comment %}
-  RSS.com Latest Show Example:
-    <iframe src="https://player.rss.com/bible-by-example/latest?theme=light&v=2" title="Bible By Example" width="100%" height="202px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/bible-by-example/latest/">Bible By Example | RSS.com</a></iframe>
-
-  RSS.com Specific Episode Example:
-    <iframe src="https://player.rss.com/bible-by-example/000000" title="Episode Title" width="100%" height="202px" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"><a href="https://rss.com/podcasts/bible-by-example/000000">Episode Title</a></iframe>
-
-  Archive.org Specific File Example:
-    <iframe src="https://archive.org/embed/teachingandteachers_2605_librivox/teachingandteachers_02_trumbull_128kb.mp3" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen=""></iframe>
-{% endcomment %}
