@@ -15,64 +15,61 @@ layout: single
 {% assign preferred_audio = site.media_defaults.primary_audio | default: "archive_org" %}
 
 <!-- Check Availability against preferred providers -->
-{% capture video_id %}
-  {% case preferred_video %}
-    {% when "youtube" %}
-      {% if page.distribution.youtube.id %}
-        {{ page.distribution.youtube.id }}
-      {% elseif page.distribution.archive_org.id %}
-        {{ page.distribution.archive_org.id }}
-        {% assign preferred_video = "archive_org" %}
-        {% assign video_file = page.distribution.archive_org.video %}
-      {% else %}
-        ""
-        {% assign preferred_video = "" %}
-      {% endif %}
-    {% when "archive_org" %}
-      {% if page.distribution.archive_org.id %}
-        {{ page.distribution.archive_org.id }}
-        {% assign video_file = page.distribution.archive_org.video %}
-      {% elsif page.distribution.youtube.id %}
-        {{ page.distribution.youtube.id }}
-        {% assign preferred_video = "youtube" %}
-      {% else %}
-        ""
-        {% assign preferred_video = "" %}
-      {% endif %}
+{% case preferred_video %}
+  {% when "youtube" %}
+    {% if page.distribution.youtube.id %}
+      {% assign video_id = page.distribution.youtube.id %}
+    {% elsif page.distribution.archive_org.id %}
+      {% assign preferred_video = "archive_org" %}
+      {% assign video_id = page.distribution.archive_org.id %}
+      {% assign video_file = page.distribution.archive_org.video %}
     {% else %}
-      ""
       {% assign preferred_video = "" %}
-  {% endcase %}
-{% endcapture %}
+      {% assign video_id = "" %}
+    {% endif %}
+  {% when "archive_org" %}
+    {% if page.distribution.archive_org.id %}
+      {% assign video_id = page.distribution.archive_org.id %}
+      {% assign video_file = page.distribution.archive_org.video %}
+    {% elsif page.distribution.youtube.id %}
+      {% assign preferred_video = "youtube" %}
+      {% assign video_id = page.distribution.youtube.id %}
+    {% else %}
+      {% assign preferred_video = "" %}
+      {% assign video_id = "" %}
+    {% endif %}
+  {% else %}
+    {% assign preferred_video = "" %}
+    {% assign video_id = "" %}
+{% endcase %}
 
-<!-- Different method, same idea not sure which is better-->
 {% assign audio_id = "" %}
 {% case preferred_audio %}
   {% when "rss_com" %}
     {% if page.distribution.rss_com.id %}
       {% assign audio_id = page.distribution.rss_com.id %}
     {% elsif page.distribution.archive_org.id %}
-      {% assign audio_id = page.distribution.archive_org.id %}
       {% assign preferred_audio = "archive_org" %}
+      {% assign audio_id = page.distribution.archive_org.id %}
       {% assign audio_file = page.distribution.archive_org.audio %}
     {% else %}
-      {% assign audio_id = "" %}
       {% assign preferred_audio = "" %}
+      {% assign audio_id = "" %}
     {% endif %}
   {% when "archive_org" %}
     {% if page.distribution.archive_org.id %}
       {% assign audio_id = page.distribution.archive_org.id %}
       {% assign audio_file = page.distribution.archive_org.audio %}
     {% elsif page.distribution.rss_com.id %}
-      {% assign audio_id = page.distribution.rss_com.id %}
       {% assign preferred_audio = "rss_com" %}
+      {% assign audio_id = page.distribution.rss_com.id %}
     {% else %}
-      {% assign audio_id = "" %}
       {% assign preferred_audio = "" %}
+      {% assign audio_id = "" %}
     {% endif %}
   {% else %}
-    {% assign audio_id = "" %}
     {% assign preferred_audio = "" %}
+    {% assign audio_id = "" %}
 {% endcase %}
 
 <div class="media-tabs-container" style="margin-bottom: 2em; border: 1px solid var(--global-border-color, #dbdbdb); border-radius: 6px; overflow: hidden;">
@@ -93,10 +90,10 @@ layout: single
   </div>
 
   <!-- Video Tab Pane -->
-  <div id="video-tab" class="js-tab-pane" style="display: block;">
+  <div id="video-tab" class="js-tab-pane" style="display: {% if video_id != '' %}block{% else %}none{% endif %};">
     {% if preferred_video == "archive_org" %}
       {% include video id=video_id provider=preferred_video file=video_file %}
-    {% elseif video_id != "" %}
+    {% elsif video_id != "" %}
       {% include video id=video_id provider=preferred_video %}
     {% else %}
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -106,7 +103,7 @@ layout: single
   </div>
 
   <!-- Audio Tab Pane -->
-  <div id="audio-tab" class="js-tab-pane" style="display: {% if active_video_id != '' %}none{% else %}block{% endif %}; padding: 1em;">
+  <div id="audio-tab" class="js-tab-pane" style="display: {% if video_id != '' %}none{% else %}block{% endif %};">
     {% if preferred_audio == "archive_org" %}
       {% include audio id=audio_id provider="archive_org" file=audio_file %}
     {% elsif audio_id != "" %}
@@ -123,7 +120,7 @@ layout: single
 <!-- Substack and Patreon Links -->
 {% if page.distribution.substack %}
   {% assign substack_link = page.distribution.substack %}
-{% elseif site.podcast_links.substack %}
+{% elsif site.podcast_links.substack %}
   {% assign substack_link = site.podcast_links.substack %}
 {% else %}
   {% assign substack_link = "" %}
@@ -131,20 +128,21 @@ layout: single
 
 {% if page.distribution.patreon %}
   {% assign patreon_link = page.distribution.patreon %}
-{% elseif site.podcast_links.patreon %}
+{% elsif site.podcast_links.patreon %}
   {% assign patreon_link = site.podcast_links.patreon %}
 {% else %}
   {% assign patreon_link = "" %}
 {% endif %}
 
-<p>Support and listen at:<ul>
+<p>Support and listen at:</p>
+<ul>
   {% if substack_link != "" %}
-    <li><a href="{{ substack_link }}" target="_blank">Substack</a></li>
+    <li><a href="{{ substack_link }}" target="_blank" rel="noopener">Substack</a></li>
   {% endif %}
   {% if patreon_link != "" %}
-    <li><a href="{{ patreon_link }}" target="_blank">Patreon</a></li>
+    <li><a href="{{ patreon_link }}" target="_blank" rel="noopener">Patreon</a></li>
   {% endif %}
-</ul></p>
+</ul>
 
 <!-- Other Listening Options -->
 {% include other-listening.html %}

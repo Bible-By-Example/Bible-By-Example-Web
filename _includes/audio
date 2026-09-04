@@ -21,6 +21,8 @@
       {% endif %}
     {% when "rss_com" %}
       https://player.rss.com/bible-by-example/{{ audio_id }}
+    {% when "google-drive" %}
+      https://drive.google.com/file/d/{{ audio_id }}/preview
   {% endcase %}
 {% endcapture %}
 {% assign audio_src = audio_src | strip %}
@@ -34,6 +36,8 @@
         Archive.org audio player
       {% when "rss_com" %}
         RSS.com audio player
+    {% when "google-drive" %}
+      Google Drive audio player
       {% else %}
         Audio player
     {% endcase %}
