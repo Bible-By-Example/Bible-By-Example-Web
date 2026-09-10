@@ -1,11 +1,11 @@
 AnonJr:
   name             : "Mark (AnonJr)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : # "Placeholder for something interesting..."
-  location         : "NC, USA"
+  avatar           : "/assets/res/AnonJr_Profile_800x800.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A fellow traveler in this study." # "Placeholder for something interesting..."
+  location         : "Coastal NC, USA"
   email            :
   uri              : "https://www.anonjr.com"
-  bitbucket        : "AnonJr"
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
@@ -14,25 +14,25 @@ AnonJr:
   github           : "AnonJr"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "anonjr_live"
   lastfm           :
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : "25163/anonjr" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : # "25163/anonjr" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
   twitter          : "@AnonJr"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/@anonjr" # "https://youtube.com/c/MichaelRoseDesign"
 
 Bible By Example:
   name             : "Bible By Example"
   avatar           : "/assets/res/Logo.Book.128w.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A long-form, text-first Bible study that teaches people how to read Scripture responsibly, without preaching, apologizing, or deconstructing." # "Placeholder for something interesting..."
-  location         :
+  location         : "Coastal NC, USA"
   email            :
   uri              :
   bitbucket        :
@@ -41,7 +41,7 @@ Bible By Example:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "Bible-By-Example" # https://github.com/Bible-By-Example
   google_plus      :
   keybase          :
   instagram        :
@@ -56,4 +56,4 @@ Bible By Example:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/@biblebyexample" # "https://youtube.com/c/MichaelRoseDesign"
