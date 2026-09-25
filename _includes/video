@@ -1,17 +1,34 @@
+{% comment %}Video embed include for Jekyll
+  Usage:
+    {% include video.html id="VIDEO_ID" provider="PROVIDER" title="TITLE" file="FILE" danmaku="DANMAKU" %}
+  Parameters:
+    - id: The video ID (required)
+    - provider: The video provider (required, one of "archive_org", "youtube", "vimeo", "google-drive", "bilibili")
+    - title: The video title (optional, defaults to a generic title based on the provider)
+    - file: The video file name (optional, only used for Archive.org)
+    - danmaku: The danmaku setting for Bilibili videos (optional, defaults to 0)
+{% endcomment %}
+
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
 {% capture video_danmaku %}{{ include.danmaku | default: 0 }}{% endcapture %}
 
 {% capture video_src %}
   {% case video_provider %}
-  {% when "vimeo" %}
-    https://player.vimeo.com/video/{{ video_id }}?dnt=true
-  {% when "youtube" %}
-    https://www.youtube-nocookie.com/embed/{{ video_id }}
-  {% when "google-drive" %}
-    https://drive.google.com/file/d/{{ video_id }}/preview
-  {% when "bilibili" %}
-    https://player.bilibili.com/player.html?bvid={{ video_id }}&page=1&as_wide=1&high_quality=1&danmaku={{ video_danmaku }}
+    {% when "archive_org" %}
+      {% if include.file %}
+        https://archive.org/embed/{{ video_id }}/{{ include.file }}
+      {% else %}
+        https://archive.org/embed/{{ video_id }}
+      {% endif %}
+    {% when "youtube" %}
+      https://www.youtube-nocookie.com/embed/{{ video_id }}
+    {% when "vimeo" %}
+      https://player.vimeo.com/video/{{ video_id }}?dnt=true
+    {% when "google-drive" %}
+      https://drive.google.com/file/d/{{ video_id }}/preview
+    {% when "bilibili" %}
+      https://player.bilibili.com/player.html?bvid={{ video_id }}&page=1&as_wide=1&high_quality=1&danmaku={{ video_danmaku }}
   {% endcase %}
 {% endcapture %}
 {% assign video_src = video_src | strip %}
@@ -21,10 +38,12 @@
     {{ include.title }}
   {% else %}
     {% case video_provider %}
-    {% when "vimeo" %}
-      Vimeo video player
+    {% when "archive_org" %}
+      Archive.org video player
     {% when "youtube" %}
       YouTube video player
+    {% when "vimeo" %}
+      Vimeo video player
     {% when "google-drive" %}
       Google Drive video player
     {% when "bilibili" %}
@@ -39,6 +58,6 @@
 <!-- Courtesy of embedresponsively.com -->
 {% unless video_src == "" %}
   <div class="responsive-video-container">
-    <iframe src="{{ video_src }}" title="{{ video_title }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="{{ video_src }}" title="{{ video_title }}" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
   </div>
 {% endunless %}

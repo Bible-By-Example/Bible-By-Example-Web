@@ -1,7 +1,5 @@
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -18,10 +16,10 @@ description              : "A long-form, text-first Bible study that teaches peo
 #url                     : Defined in _config.dev.yml and _config.prod.yml; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Bible-By-Example/Bible-By-Example-Web"
-teaser                   : "/assets/img/Logo.Main.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/img/Logo.Book.64w.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/res/Logo.Main.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/res/Logo.Book.64w.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -63,11 +61,11 @@ reCaptcha:
 
 # Generate Atom feeds - https://github.com/jekyll/jekyll-feed
 feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "/rss-posts.xml" # blank (default) uses feed.xml
   posts_limit            : 15
 # Minimal Mistakes has some similar settings, but only used by the theme logic - not the plugin.
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "/rss-posts.xml" # blank (default) uses feed.xml
   hide                   : # true, false (default)
 
 search                   : # true, false (default)
@@ -94,13 +92,15 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               :
+  card                   : # The site's default card type
+
 facebook:
   username               :
   app_id                 :
   publisher              :
 
-og_image                 : "/assets/img/Logo.Main.png" # Open Graph/Twitter default site image
-og_image_alt             : # Alt text for Open Graph/Twitter default site image
+og_image                 : "/assets/res/Logo.Main.png" # Open Graph/Twitter default site image
+og_image_alt             : "Bible By Example" # Alt text for Open Graph/Twitter default site image
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -194,6 +194,7 @@ exclude:
   - .ruby-version
   - .scripts/
   - .vscode/
+  - frontmatter.json
 
   # Build dependencies
   - Gemfile
@@ -243,7 +244,7 @@ sass:
 
 
 # Outputting
-permalink                : /:year/:month/:title.html # old - permalink: /:categories/:title/
+#permalink                : /articles/:year-:month-:day-:title.html # old - permalink: /:categories/:title/
 date_format              : "%d %b %Y" # "%d %b %Y %H:%M" if I want to include time later
 timezone                 : America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -295,23 +296,21 @@ plugins:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type                   : jekyll-archives
+  path                   : /category/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type                   : jekyll-archives
+  path                   : /tag/
 # show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+tag_archive_path         : "/tag/:name"
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag                  : tagpage
+  permalinks:
+    tag                  : /tag/:name/
 
 
 # HTML Compression https://jch.penibelst.de/
@@ -327,15 +326,48 @@ compress_html:
 
 # Collections
 collections:
+  episodes:
+    output               : true
+    permalink            : /episodes/:basename:output_ext
   pages:
     output               : true
     permalink            : /:title:output_ext
+  posts:
+    output               : true
+    permalink            : /articles/:year-:month-:day-:title:output_ext
+  series:
+    output               : true
+    permalink            : /:collection/:slug/
   styleguide:            # Defined in _config.dev.yml and _config.prod.yml, keeping a sensible default just in case
     output               : false
 
 
 # Defaults
 defaults:
+  # _episodes
+  - scope:
+      path               : "_episodes"
+      type               : episodes
+    values:
+      layout             : episode
+      author_profile     : false
+      author             : Bible By Example
+      read_time          : false
+      comments           : false
+      share              : true
+      related            : false
+  # _pages
+  - scope:
+      path               : "_pages"
+      type               : pages
+    values:
+      layout             : pages
+      author_profile     : false
+      author             : Bible By Example
+      read_time          : false
+      comments           : false # true
+      share              : false
+      related            : false
   # _posts
   - scope:
       path               : "_posts"
@@ -350,16 +382,32 @@ defaults:
       share              : true
       show_taxonomy      : true
       related            : false
-  # _pages
+  # _series
   - scope:
-      path               : "_pages"
-      type               : pages
+      path               : "_series"
+      type               : series
     values:
       layout             : pages
       author_profile     : false
       author             : Bible By Example
       read_time          : false
       comments           : false # true
-      share              : false
+      share              : true
       related            : false
-      permalink          : /:title:output_ext
+
+# Media Player & Distribution Settings
+media_defaults:
+  primary_video          : youtube # Options: archive_org, youtube, vimeo, google-drive, bilibili
+  primary_audio          : rss_com # Options: archive_org, rss_com
+  podcast_rss            : rss_com # Options:
+
+# Links to main page for each distribution platform
+podcast_links:
+  rss_com: "https://rss.com/podcasts/bible-by-example/"
+  youtube: "https://www.youtube.com/@BibleByExample"
+  archive_org: "" # I'll have to link to a tag page until there's enough episodes for a collection.
+  patreon: "https://www.patreon.com/cw/BibleByExample"
+  substack: "https://biblebyexample.substack.com/"
+  apple: "" # Can't set up until I have at least one episode published.
+  amazon: "" # Can't set up until I have at least one episode published.
+  spotify: "" # Can't set up until I have at least one episode published.

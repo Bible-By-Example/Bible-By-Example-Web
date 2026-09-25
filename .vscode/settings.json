@@ -19,15 +19,13 @@
         "git-commit",
         "html",
         "javascript",
-        "json",
         "jsonc",
         "markdown",
         "plaintext",
         "powershell",
         "python",
         "ruby",
-        "toml",
-        "yaml"
+        "toml"
     ],
     "[markdown]": {
     }

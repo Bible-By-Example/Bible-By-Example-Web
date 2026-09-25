@@ -1,0 +1,53 @@
+{% comment %} Audio embed include for Jekyll (Based off the video embed include)
+  Usage:
+    {% include audio.html id="AUDIO_ID" provider="PROVIDER" title="TITLE" file="FILE" %}
+  Parameters:
+    - id: The audio ID (required)
+    - provider: The audio provider (required, one of "archive_org", "rss_com")
+    - file: The audio file name (optional, only used for Archive.org)
+    - title: The audio title (optional, defaults to a generic title based on the provider)
+{% endcomment %}
+
+{% capture audio_id %}{{ include.id }}{% endcapture %}
+{% capture audio_provider %}{{ include.provider }}{% endcapture %}
+
+{% capture audio_src %}
+  {% case audio_provider %}
+    {% when "archive_org" %}
+      {% if include.file %}
+        https://archive.org/embed/{{ audio_id }}/{{ include.file }}
+      {% else %}
+        https://archive.org/embed/{{ audio_id }}
+      {% endif %}
+    {% when "rss_com" %}
+      https://player.rss.com/bible-by-example/{{ audio_id }}
+    {% when "google-drive" %}
+      https://drive.google.com/file/d/{{ audio_id }}/preview
+  {% endcase %}
+{% endcapture %}
+{% assign audio_src = audio_src | strip %}
+
+{% capture audio_title %}
+  {% if include.title %}
+    {{ include.title }}
+  {% else %}
+      {% case audio_provider %}
+      {% when "archive_org" %}
+        Archive.org audio player
+      {% when "rss_com" %}
+        RSS.com audio player
+    {% when "google-drive" %}
+      Google Drive audio player
+      {% else %}
+        Audio player
+    {% endcase %}
+  {% endif %}
+{% endcapture %}
+{% assign audio_title = audio_title | strip %}
+
+<!-- Courtesy of embedresponsively.com -->
+{% unless audio_src == "" %}
+  <div class="responsive-video-container">
+    <iframe src="{{ audio_src }}" title="{{ audio_title }}" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  </div>
+{% endunless %}
