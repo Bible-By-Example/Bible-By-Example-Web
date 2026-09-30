@@ -3,7 +3,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
@@ -16,7 +16,7 @@ description              : "A long-form, text-first Bible study that teaches peo
 #url                     : Defined in _config.dev.yml and _config.prod.yml; the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Bible-By-Example/Bible-By-Example-Web"
-teaser                   : "/assets/res/Logo.Main.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/res/web-app-manifest-512x512.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/res/Logo.Book.64w.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
@@ -99,7 +99,7 @@ facebook:
   app_id                 :
   publisher              :
 
-og_image                 : "/assets/res/Logo.Main.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/res/web-app-manifest-512x512.png" # Open Graph/Twitter default site image
 og_image_alt             : "Bible By Example" # Alt text for Open Graph/Twitter default site image
 
 # For specifying social profiles
@@ -209,8 +209,8 @@ exclude:
   # Deployment
   - wrangler.toml
 
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+encoding                 : "utf-8"
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
 
 show_drafts              : false
 future                   : false
@@ -350,7 +350,7 @@ defaults:
       type               : episodes
     values:
       layout             : episode
-      author_profile     : false
+      author_profile     : true
       author             : Bible By Example
       read_time          : false
       comments           : false
@@ -362,10 +362,10 @@ defaults:
       type               : pages
     values:
       layout             : pages
-      author_profile     : false
+      author_profile     : true
       author             : Bible By Example
       read_time          : false
-      comments           : false # true
+      comments           : false
       share              : false
       related            : false
   # _posts
@@ -378,7 +378,7 @@ defaults:
       author             : AnonJr
       read_time          : true
       show_date          : true
-      comments           : # true
+      comments           : false
       share              : true
       show_taxonomy      : true
       related            : false
@@ -388,10 +388,10 @@ defaults:
       type               : series
     values:
       layout             : pages
-      author_profile     : false
+      author_profile     : true
       author             : Bible By Example
       read_time          : false
-      comments           : false # true
+      comments           : false
       share              : true
       related            : false
 
@@ -403,11 +403,11 @@ media_defaults:
 
 # Links to main page for each distribution platform
 podcast_links:
-  rss_com: "https://rss.com/podcasts/bible-by-example/"
-  youtube: "https://www.youtube.com/@BibleByExample"
-  archive_org: "" # I'll have to link to a tag page until there's enough episodes for a collection.
-  patreon: "https://www.patreon.com/cw/BibleByExample"
-  substack: "https://biblebyexample.substack.com/"
-  apple: "" # Can't set up until I have at least one episode published.
-  amazon: "" # Can't set up until I have at least one episode published.
-  spotify: "" # Can't set up until I have at least one episode published.
+  rss_com                : "https://rss.com/podcasts/bible-by-example/"
+  youtube                : "https://www.youtube.com/@BibleByExample"
+  archive_org            : "" # I'll have to link to a tag page until there's enough episodes for a collection.
+  patreon                : "https://www.patreon.com/cw/BibleByExample"
+  substack               : "https://biblebyexample.substack.com/"
+  apple                  : "" # Can't set up until I have at least one episode published.
+  amazon                 : "" # Can't set up until I have at least one episode published.
+  spotify                : "" # Can't set up until I have at least one episode published.

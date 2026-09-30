@@ -127,7 +127,7 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
+    color: $link-color; //Old: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
@@ -502,8 +502,8 @@
      ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
-  color: $gray;
+  font-family: $header-font-family; // Old: $sans-serif-narrow;
+  color: $highlight-color; // Old: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -511,9 +511,10 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
-    font-size: $type-size-6;
-    background: $primary-color;
+    color: $highlight-color; // Old: #fff;
+    font-size: $type-size-5; // Old: $type-size-6;
+    background: $darker-gray; // Old: $primary-color;
+    border-bottom: 1px solid $border-color; // Added since the background color is now different from the border color
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
   }
@@ -538,14 +539,16 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
-    font-weight: bold;
+    // color: $muted-text-color;
+    // font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
+    /* Trying to harmonize nav links, should just need to comment this out
     &:hover {
       color: $text-color;
     }
+    */
   }
 
   li ul > li a {

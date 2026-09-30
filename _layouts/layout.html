@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+{% comment %} Based off of the default.html layout, reflect necessary changes here too {% endcomment %}
+
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'en' }}" class="no-js" dir="{{ page.direction | default: layout.direction | default: site.direction | default: 'ltr' }}">
+  <head>
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    </div>
+
+    {% include scripts.html locale=locale %}
+  </body>
+</html>
