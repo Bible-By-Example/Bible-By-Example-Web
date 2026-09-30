@@ -241,7 +241,9 @@
         </li>
       {% endif %}
 
-      {% include author-profile-custom-links.html %}
+      {% if author.custom %}
+        {% include author-profile-custom-links.html %}
+      {% endif %}
     </ul>
   </div>
 </div>

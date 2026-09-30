@@ -7,13 +7,16 @@
   float: inline-start;
   margin-inline: 0;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 0em; // old: 3em - Adjustment to match AnonJr site style
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: $background-color; // old: $footer-background-color - Adjustment to match AnonJr site style
+
+  border-top: 1px solid $border-color; // Adjustment to match AnonJr site style
+  font-family: $header-font-family;    // Adjustment to match AnonJr site style
 
   footer {
     @include clearfix;
@@ -45,7 +48,6 @@
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
   font-size: $type-size-7;
 
   /* v Fix for Creative Commons logos to fit right v */

@@ -27,10 +27,11 @@ AnonJr:
   weibo            :
   xing             :
   youtube          : "https://www.youtube.com/@anonjr" # "https://youtube.com/c/MichaelRoseDesign"
+  custom           : false # Add all custom links to the author profile from `_includes/author-profile-custom-links.html`.
 
 Bible By Example:
   name             : "Bible By Example"
-  avatar           : "/assets/res/Logo.Book.128w.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # "/assets/res/web-app-manifest-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A long-form, text-first Bible study that teaches people how to read Scripture responsibly, without preaching, apologizing, or deconstructing." # "Placeholder for something interesting..."
   location         : "Coastal NC, USA"
   email            :
@@ -57,3 +58,4 @@ Bible By Example:
   weibo            :
   xing             :
   youtube          : "https://www.youtube.com/@biblebyexample" # "https://youtube.com/c/MichaelRoseDesign"
+  custom           : true # Add all custom links to the author profile from `_includes/author-profile-custom-links.html`.

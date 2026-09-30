@@ -3,8 +3,9 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
-  margin-bottom: 2em;
+  /* v Adjustment to match AnonJr site style v */
+  @include og-black-bkgrnd;
+  /* ^ Adjustment to match AnonJr site style ^ */
 
   @include breakpoint($large) {
     float: inline-end;
@@ -20,6 +21,10 @@
 
 .archive__item {
   position: relative;
+
+  h2 {
+    padding-bottom: 0em; // Added to remove padding from h2 in archive item title
+  }
 
   a {
     position: relative;
@@ -45,7 +50,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family; // Old: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -124,7 +129,7 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: $type-size-6; // Old: 0.6em; Trying to harmonize meta size
   }
 }
 
