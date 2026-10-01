@@ -240,9 +240,10 @@ $text-alignments: left, right, start, end, center, justify;
     $signal-color: ".fa-signal-messenger",
     $soundcloud-color: ".fa-soundcloud",
     $stackoverflow-color: ".fa-stack-exchange, .fa-stack-overflow",
-    $substack-color: ".fa-bookmark",
+    $substack-color: ".fa-substack",
     $telegram-color: ".fa-telegram",
     $tumblr-color: ".fa-tumblr, .fa-tumblr-square, .fa-square-tumblr",
+    $twitch-color: ".fa-twitch, .fa-twitch-square, .fa-square-twitch",
     $twitter-color: ".fa-twitter, .fa-twitter-square",
     $x-color: ".fa-x-twitter, .fa-square-x-twitter",
     $vimeo-color: ".fa-vimeo, .fa-vimeo-square, .fa-square-vimeo, .fa-vimeo-v",
@@ -253,6 +254,10 @@ $text-alignments: left, right, start, end, center, justify;
 
     // Avoid "Duplicate key #000000 in map" error
     $black-color: ".fa-threads, .fa-square-threads, .fa-tiktok",
+
+    // Avoid "Duplicate key #ffffff in map" error
+    $white-color: ".fa-internet-archive, .fa-patreon"
+
   ) {
     #{$icons} {
       color: $color;

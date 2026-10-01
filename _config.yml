@@ -17,7 +17,7 @@ description              : "A long-form, text-first Bible study that teaches peo
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Bible-By-Example/Bible-By-Example-Web"
 teaser                   : "/assets/res/web-app-manifest-512x512.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/res/Logo.Book.64w.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/res/Logo.Book.Sm.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -119,55 +119,54 @@ analytics:
 
 # Site Author
 author:
-  name                   : "Mark Bussell Jr. (AnonJr)"
-  avatar                 : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio                    : "A fellow traveler in this study."
+  name                   : "Bible By Example"
+  avatar                 : "/assets/res/web-app-manifest-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio                    : "A long-form, text-first Bible study that teaches people how to read Scripture responsibly, without preaching, apologizing, or deconstructing."
   location               : "Coastal NC, USA"
   email                  :
   # fediverse              : "@you@instance.social"  # used for fediverse:creator meta tag
 
   links:
-    - label              : "Email"
-      icon               : "fas fa-fw fa-square-envelope"
-      # url                : "mailto:your.name@email.com"
-    - label              : "Website"
-      icon               : "fas fa-fw fa-link"
-      url                : "https://www.anonjr.com"
-    - label              : "Instagram"
-      icon               : "fa-brands fa-instagram"
-      url                : "https://www.instagram.com/anonjr_live/"
-    - label              : "Reddit"
-      icon               : "fa-brands fa-reddit"
-      url                : "https://www.reddit.com/user/AnonJr/"
+    - label              : "RSS.com Podcast Host"
+      icon               : "fa-solid fa-rss"
+      url                : "https://rss.com/podcasts/bible-by-example/"
+    - label              : "YouTube"
+      icon               : "fa-brands fa-youtube"
+      url                : "https://www.youtube.com/@BibleByExample"
     - label              : "Substack"
-      icon               : "fa-solid fa-bookmark"
-      url                : "https://substack.com/@anonjr"
-    - label              : "X / Twitter"
-      icon               : "fa-brands fa-square-x-twitter"
-      url                : "https://x.com/AnonJr/"
+      icon               : "fa-brands fa-substack"
+      url                : "https://biblebyexample.substack.com/"
+    - label              : "Patreon"
+      icon               : "fa-brands fa-patreon"
+      url                : "https://www.patreon.com/BibleByExample"
+    - label              : "Archive.org"
+      icon               : "fa-brands fa-internet-archive"
+      url                : "https://archive.org/details/@anonjr/uploads"
+    - label              : "GitHub"
+      icon               : "fa-brands fa-github"
+      url                : "https://github.com/Bible-By-Example/"
 
 # Site Footer
 footer:
   links:
-    - label              : "Twitter"
-      icon               : "fab fa-fw fa-square-x-twitter"
-      # url                :
-      # rel                : "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
-    - label              : "Facebook"
-      icon               : "fab fa-fw fa-square-facebook"
-      # url                :
+    - label              : "RSS.com Podcast Host"
+      icon               : "fa-solid fa-rss"
+      url                : "https://rss.com/podcasts/bible-by-example/"
+    - label              : "YouTube"
+      icon               : "fa-brands fa-youtube"
+      url                : "https://www.youtube.com/@BibleByExample"
+    - label              : "Substack"
+      icon               : "fa-brands fa-substack"
+      url                : "https://biblebyexample.substack.com/"
+    - label              : "Patreon"
+      icon               : "fa-brands fa-patreon"
+      url                : "https://www.patreon.com/BibleByExample"
+    - label              : "Archive.org"
+      icon               : "fa-brands fa-internet-archive"
+      url                : "https://archive.org/details/@anonjr/uploads"
     - label              : "GitHub"
-      icon               : "fab fa-fw fa-github"
-      url                : "https://github.com/Bible-By-Example/Bible-By-Example-Web/"
-    - label              : "GitLab"
-      icon               : "fab fa-fw fa-gitlab"
-      # url                :
-    - label              : "Bitbucket"
-      icon               : "fab fa-fw fa-bitbucket"
-      # url                :
-    - label              : "Instagram"
-      icon               : "fab fa-fw fa-instagram"
-      # url                :
+      icon               : "fa-brands fa-github"
+      url                : "https://github.com/Bible-By-Example/"
   since                  : "2025"
 
 

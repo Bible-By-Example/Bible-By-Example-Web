@@ -14,14 +14,18 @@ AnonJr:
   github           : "AnonJr"
   google_plus      :
   keybase          :
+  ia               : "@anonjr"
   instagram        : "anonjr_live"
   lastfm           :
   linkedin         :
   pinterest        :
+  reddit           : "anonjr"
   soundcloud       :
   stackoverflow    : # "25163/anonjr" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
+  substack         : "https://anonjr.substack.com"
   tumblr           :
+  twitch           : "anonjr"
   twitter          : "@AnonJr"
   vine             :
   weibo            :
@@ -45,14 +49,18 @@ Bible By Example:
   github           : "Bible-By-Example" # https://github.com/Bible-By-Example
   google_plus      :
   keybase          :
+  ia               : "@anonjr"
   instagram        :
   lastfm           :
   linkedin         :
   pinterest        :
+  reddit           :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
+  substack         : "https://biblebyexample.substack.com"
   tumblr           :
+  twitch           :
   twitter          :
   vine             :
   weibo            :
