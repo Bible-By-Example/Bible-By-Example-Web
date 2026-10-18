@@ -296,13 +296,13 @@ plugins:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type                   : jekyll-archives
-  path                   : /category/
+#   path                   : /category/
 tag_archive:
   type                   : jekyll-archives
   path                   : /tag/
 # show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
-tag_archive_path         : "/tag/:name"
+# tag_archive_path         : "/tag/:name"
 jekyll-archives:
   enabled:
     - tags

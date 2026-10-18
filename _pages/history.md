@@ -1,6 +1,7 @@
 ---
 title : Article History
 description: "Full list of previous posts."
+permalink: /articles/
 toc: true
 toc_label: "Post History"
 toc_icon: "fa-regular fa-calendar-days"
