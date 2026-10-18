@@ -7,6 +7,8 @@ author         : Bible By Example
 
 <p>If you want grounded, thoughtful study without denominational spin, this is your place.</p>
 
+{% include episode_zero.html %}
+
 <h2>Latest Updates and Episodes</h2>
 
 {% assign combined_feed = site.posts | concat: site.episodes | sort: "date" | reverse %}
