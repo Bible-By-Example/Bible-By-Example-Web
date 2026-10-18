@@ -6,7 +6,7 @@ header:
     image: /assets/res/banner_default.png
     image_description: "Banner with the Bible by Example logo and tagline"
 tags:
-    - meta
+    - Meta
 # last_modified_at: # Reminder for if I need to update later
 ---
 
