@@ -393,6 +393,17 @@ defaults:
       comments           : false
       share              : true
       related            : false
+  # _styleguide
+  - scope:
+      path               : "_styleguide"
+    values:
+      author_profile     : true
+      author             : Bible By Example
+      read_time          : true
+      comments           : false
+      share              : true
+      related            : false
+      toc                : true
 
 # Media Player & Distribution Settings
 media_defaults:
