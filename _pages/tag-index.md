@@ -1,6 +1,6 @@
 ---
 title: Tag Index
-description: "A list of all tags used in AnonJr.com"
+description: "A list of all Article tags in Bible By Example"
 permalink: /tag/
 share: false
 toc: true
@@ -8,8 +8,6 @@ toc_label: "Tags"
 toc_icon: "fa-solid fa-tag"
 toc_sticky: true
 ---
-
-{{ page.description }}
 
 {% capture raw_tags %}{% for tag in site.tags %}{{ tag[0] | downcase }}#{{ tag[0] }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
 {% assign sorted_tags = raw_tags | split: '|' | sort %}
