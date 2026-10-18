@@ -1,31 +1,31 @@
 ---
 title: About Bible By Example
-description: "About Bible By Example and it's host"
+description: "About Bible By Example and its host"
 toc: false
 toc_label: "About"
 toc_sticky: true
 ---
 
-Bible By Example is a podcast for people who want to engage with the Bible directly — without sermons, agendas, or insider jargon. Whether you’re a new Christian, a longtime churchgoer who’s never read the text for yourself, or a skeptic who wants to ensure your criticisms are leveled at the actual text rather than a caricature, this podcast gives you a clear, grounded way in.
+Bible By Example is a podcast for people who want to engage with the Bible directly without sermons, agendas, or insider jargon. Whether you're a new Christian, a longtime churchgoer who's never read the text for yourself, or a skeptic who wants to make sure your criticisms are aimed at what the Bible actually says rather than a caricature, this podcast is an invitation to read the text and see for yourself.
 
-Hosted by a Christian “fellow traveler” out of costal North Carolina rather than a theologian or pastor, the show walks through the Bible book by book, chapter by chapter, verse by verse — and we don’t skip the hard parts. Think of it like a peer-to-peer study where I share the linguistic quirks, historical context, and archaeological data from my prep work, while explicitly inviting you to check behind me.
+I'm a Christian fellow traveler from coastal North Carolina, not a theologian or pastor. We'll work through the Bible book by book, chapter by chapter, and verse by verse. We won't skip the hard parts, either. Think of it as a study with a fellow reader: I'll share what I've found in my preparation, including linguistic quirks, historical context, and archaeological evidence, and invite you to check behind me. I'm not asking you to take my word for it.
 
-We do a few things differently than the usual study like this:
+There are a few things I want to do differently from the usual Bible study:
 
-* While we go from Genesis to Revelation, in order, we never spoil the ending. We only cross-reference what we have already covered together, allowing the historical narrative to unfold in real-time.
-* This will be grounded in the historic, orthodox creeds of the faith. As we go, we will map out the generally accepted "Overton Window" of different traditions where interpretations differ.
-* My background is in computer programming, not divinity school. The goal isn’t to tell you what to believe, but to look at how the text is put together and model how to read carefully, responsibly, and with curiosity.
+* We'll go from Genesis to Revelation, in order, without jumping ahead. We *will* cross-reference what we've already covered and let the story unfold as we go.
+* This study is rooted in the historic, orthodox creeds of the faith. Where traditions disagree, we'll map out the "Overton Window" of interpretations within historic Christian orthodoxy rather than push one narrow denominational line.
+* My background is in computer programming, not divinity school. I'm not here to tell you what to believe. I want to look at how the text is put together and show what careful reading, responsible research, and a little curiosity can uncover.
 
-We start with "Episode 00" to get a proper, expanded footing for what this series is and isn't. From there the journey moves to an introductory series covering how we got the text, why we consider it reliable, how translation families differ, and the baseline definitions we'll be using. And then we move into Genesis and our journey through the books of the Bible.
+We kick things off with **Episode 00** to lay out the ground rules for what this series is and isn't. From there, a brief introductory **Foundations** series covers how we got the biblical text, why we consider it reliable, how translation families differ, and what we mean by some of the terms we'll use along the way. After that, we dive straight into Genesis.
 
-If you want to feel grounded, educated, and better equipped to read Scripture for yourself, you’re in the right place.
+The goal is to help you read Scripture for yourself, ask better questions, and make up your own mind about what you find.
 
 ## Licensing and Copyright
 
-Unless otherwise noted, the original content produced by Bible By Example is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. This includes podcast episodes, transcripts, articles, study guides, and other written and recorded materials.
+Unless otherwise noted, original content produced by Bible By Example is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. This includes podcast episodes, transcripts, articles, study guides, and other written and recorded materials.
 
-The Bible By Example name, logo, and other branding are not licensed under Creative Commons and may not be used in a manner that suggests endorsement, affiliation, or sponsorship without permission.
+The Bible By Example name, logo, and other branding are not covered by the Creative Commons license. They may not be used in a way that suggests endorsement, affiliation, or sponsorship without permission.
 
-The Bible By Example Theme Song and any other original musical works are Copyright © Bible By Example. All Rights Reserved. They are not included in the Creative Commons license unless expressly stated otherwise.
+The Bible By Example theme song and any other original musical works are Copyright © Mark Bussell Jr. d/b/a Wayward Son Developers. All Rights Reserved. These works are not included in the Creative Commons license unless expressly stated otherwise.
 
-Third-party materials, including quotations, Scripture translations, photographs, artwork, and other copyrighted works, remain the property of their respective owners and are used under their applicable licenses or permissions.
+Third‑party materials — including quotations, Scripture translations, photographs, artwork, and other copyrighted works — remain the property of their respective owners and are subject to their own licenses or permissions.
